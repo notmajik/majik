@@ -1,0 +1,3703 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+    
+
+	
+	
+	 <channel>
+	
+   
+
+
+<item>
+<title>      [COLOR tomato][B]WELCOME TO MAJIK NINJA IPTV INFO[/B][/COLOR] </title>
+<link>$doregex[openDialog]</link>
+<regex>
+<name>openDialog</name>
+<expres><![CDATA[#$pyFunction
+import xbmcaddon
+import xbmcgui
+def GetLSProData(page_data,Cookie_Jar,m):
+    __addon__ = xbmcaddon.Addon()
+    __addonname__ = __addon__.getAddonInfo('name')     
+    line1 = "[COLOR tomato][B]WELCOME TO MAJIK NINJA IPTV[/B][/COLOR]"
+    line2 = "[COLOR tomato][B]THIS ADDON USES INTERNET SOURCES THAT CAN BE FOUND FREE[/B][/COLOR]"
+    line3 = "[COLOR tomato][B]Copyrigt violation issues to the company's hosting these files[/B][/COLOR]" 
+    xbmcgui.Dialog().ok(__addonname__, line1, line2, line3)
+    return 
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://faygoluvers.net/v5/wp-content/uploads/2014/10/mnetwitter.jpg</thumbnail>
+<fanart>https://faygoluvers.net/v5/wp-content/uploads/2014/10/mnetwitter.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[B][COLOR lime]==KODI====[COLOR blue]======Favourites====[COLOR lime]======[/COLOR][/B]</title>
+<link>https://www.tvaddons.ag/forums/$doregex[id]</link>
+<regex>
+<name>id</name>
+<expres>$pyFunction:xbmc.executebuiltin('ActivateWindow(10134)')</expres>
+<page></page>
+<NOTPlayable>True</NOTPlayable>
+</regex>
+</item>
+
+
+
+
+<item> 
+<title>[COLOR pink][B]CABLE TV LIST 1[/B][/COLOR]</title>             
+<link>$doregex[makelist2]</link>
+<regex>
+<name>makelist2</name>
+<thumbnail>https://icdn2.digitaltrends.com/image/hulu-screenshot-4-720x720.jpg?ver=1.jpg</thumbnail>
+<fanart>https://www.visioneclick.com/wp-content/uploads/2018/02/cable-tv-providers-list.jpg</fanart>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist2.param2][/COLOR][/B]</title> 
+<link>plugin://plugin.video.f4mTester/?url=[makelist2.param3]&amp;streamtype=HLSRETRY&amp;name=[makelist2.param2]</link>
+<thumbnail>https://icdn2.digitaltrends.com/image/hulu-screenshot-4-720x720.jpg?ver=1.jpg</thumbnail>
+<fanart>https://www.visioneclick.com/wp-content/uploads/2018/02/cable-tv-providers-list.jpg</fanart>    
+]]></listrepeat>
+<expres><![CDATA[#EXTINF:(.*),(.*)\s(http.*://(.*)/live.*m3u8)]]></expres>
+<page><![CDATA[https://tv4.live/api/list/paublo53@neclipspui.com/144433]]></page>
+<cookieJar></cookieJar>
+</regex>   
+</item>
+
+
+
+<item> 
+<title>[COLOR lime][B]CABLE TV LIST 2[/B][/COLOR]</title>             
+<link>$doregex[makelist2]</link>
+<regex>
+<name>makelist2</name>
+<thumbnail>https://icdn2.digitaltrends.com/image/hulu-screenshot-4-720x720.jpg?ver=1.jpg</thumbnail>
+<fanart>https://www.visioneclick.com/wp-content/uploads/2018/02/cable-tv-providers-list.jpg</fanart>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist2.param2][/COLOR][/B]</title> 
+<link>plugin://plugin.video.f4mTester/?url=[makelist2.param3]&amp;streamtype=HLSRETRY&amp;name=[makelist2.param2]</link>
+<thumbnail></thumbnail>
+<fanart>https://www.visioneclick.com/wp-content/uploads/2018/02/cable-tv-providers-list.jpg</fanart>    
+]]></listrepeat>
+<expres><![CDATA[#EXTINF:(.*),(.*)\s(http.*://(.*)/live.*m3u8)]]></expres>
+<page><![CDATA[https://tv4.live/api/list/vutyzab@getnada.com/215795]]></page>
+<cookieJar></cookieJar>
+</regex>   
+</item>
+
+
+
+
+
+
+<item> 
+<title>[COLOR pink][B]CABLE TV LIST 3[/B][/COLOR]</title>             
+<link>$doregex[makelist2]</link>
+<regex>
+<name>makelist2</name>
+<thumbnail>https://icdn2.digitaltrends.com/image/hulu-screenshot-4-720x720.jpg?ver=1.jpg</thumbnail>
+<fanart>https://www.visioneclick.com/wp-content/uploads/2018/02/cable-tv-providers-list.jpg</fanart>
+<listrepeat><![CDATA[
+<title>[B][COLOR lime][makelist2.param2][/COLOR][/B]</title> 
+<link>plugin://plugin.video.f4mTester/?url=[makelist2.param3]&amp;streamtype=HLSRETRY&amp;name=[makelist2.param2]</link>
+<thumbnail>https://icdn2.digitaltrends.com/image/hulu-screenshot-4-720x720.jpg?ver=1.jpg</thumbnail>
+<fanart>https://www.visioneclick.com/wp-content/uploads/2018/02/cable-tv-providers-list.jpg</fanart>    
+]]></listrepeat>
+<expres><![CDATA[#EXTINF:(.*),(.*)\s(http.*://(.*)/live.*m3u8)]]></expres>
+<page><![CDATA[https://tv4.live/api/list/temop@getnada.com/612905]]></page>
+<cookieJar></cookieJar>
+</regex>   
+</item>
+
+
+
+
+
+
+
+
+
+<item>
+<title>https://www.stream4free.live/south-park-us Google recaptcha</title>
+<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
+
+<regex>
+<name>savecookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>save[stream4Free.lwp]</cookieJar>
+</regex>
+
+<regex>
+<name>getmainPage</name>
+<expres>source src="(.*?)"</expres>
+<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/south-park-us',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>loadcookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>open[stream4Free.lwp]</cookieJar>
+</regex>
+
+</item>
+
+
+
+<item>
+<title>https://www.stream4free.live/adventure-time-hd Google recaptcha</title>
+<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
+
+<regex>
+<name>savecookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>save[stream4Free.lwp]</cookieJar>
+</regex>
+
+<regex>
+<name>getmainPage</name>
+<expres>source src="(.*?)"</expres>
+<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/adventure-time-hd',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>loadcookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>open[stream4Free.lwp]</cookieJar>
+</regex>
+
+</item>
+
+
+
+
+
+
+<item>
+<title>https://www.stream4free.live/rick-and-morty Google recaptcha</title>
+<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
+
+<regex>
+<name>savecookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>save[stream4Free.lwp]</cookieJar>
+</regex>
+
+<regex>
+<name>getmainPage</name>
+<expres>source src="(.*?)"</expres>
+<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/rick-and-morty',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>loadcookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>open[stream4Free.lwp]</cookieJar>
+</regex>
+
+</item>
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>https://www.stream4free.live/simpsons Google recaptcha</title>
+<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
+
+<regex>
+<name>savecookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>save[stream4Free.lwp]</cookieJar>
+</regex>
+
+<regex>
+<name>getmainPage</name>
+<expres>source src="(.*?)"</expres>
+<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/simpsons',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>loadcookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>open[stream4Free.lwp]</cookieJar>
+</regex>
+
+</item>
+
+
+
+
+
+
+
+<item>
+<title>https://www.stream4free.live/always-sunny-in-philadelphia Google recaptcha</title>
+<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
+
+<regex>
+<name>savecookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>save[stream4Free.lwp]</cookieJar>
+</regex>
+
+<regex>
+<name>getmainPage</name>
+<expres>source src="(.*?)"</expres>
+<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/always-sunny-in-philadelphia',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>loadcookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>open[stream4Free.lwp]</cookieJar>
+</regex>
+
+</item>
+
+
+
+
+<item>
+<title>https://www.stream4free.live/futurama Google recaptcha</title>
+<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
+
+<regex>
+<name>savecookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>save[stream4Free.lwp]</cookieJar>
+</regex>
+
+<regex>
+<name>getmainPage</name>
+<expres>source src="(.*?)"</expres>
+<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/futurama',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>loadcookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>open[stream4Free.lwp]</cookieJar>
+</regex>
+
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>https://www.stream4free.live/the-office Google recaptcha</title>
+<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
+
+<regex>
+<name>savecookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>save[stream4Free.lwp]</cookieJar>
+</regex>
+
+<regex>
+<name>getmainPage</name>
+<expres>source src="(.*?)"</expres>
+<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/the-office',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>loadcookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>open[stream4Free.lwp]</cookieJar>
+</regex>
+
+</item>
+
+
+
+
+
+
+<item>
+<title>https://www.stream4free.live/scrubs Google recaptcha</title>
+<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
+
+<regex>
+<name>savecookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>save[stream4Free.lwp]</cookieJar>
+</regex>
+
+<regex>
+<name>getmainPage</name>
+<expres>source src="(.*?)"</expres>
+<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/scrubs',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>loadcookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>open[stream4Free.lwp]</cookieJar>
+</regex>
+
+</item>
+
+
+
+
+
+
+
+
+<item>
+<title>https://www.stream4free.live/brickleberry Google recaptcha</title>
+<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
+
+<regex>
+<name>savecookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>save[stream4Free.lwp]</cookieJar>
+</regex>
+
+<regex>
+<name>getmainPage</name>
+<expres>source src="(.*?)"</expres>
+<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/brickleberry',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>loadcookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>open[stream4Free.lwp]</cookieJar>
+</regex>
+
+</item>
+
+
+
+
+
+
+<item>
+<title>https://www.stream4free.live/triptank Google recaptcha</title>
+<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
+
+<regex>
+<name>savecookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>save[stream4Free.lwp]</cookieJar>
+</regex>
+
+<regex>
+<name>getmainPage</name>
+<expres>source src="(.*?)"</expres>
+<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/triptank',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>loadcookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>open[stream4Free.lwp]</cookieJar>
+</regex>
+
+</item>
+
+
+
+
+
+<item>
+<title>https://www.stream4free.live/aqua-teen-hunger-force Google recaptcha</title>
+<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
+
+<regex>
+<name>savecookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>save[stream4Free.lwp]</cookieJar>
+</regex>
+
+<regex>
+<name>getmainPage</name>
+<expres>source src="(.*?)"</expres>
+<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/aqua-teen-hunger-force',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>loadcookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>open[stream4Free.lwp]</cookieJar>
+</regex>
+
+</item>
+
+
+
+
+
+<item>
+<title>https://www.stream4free.live/friends Google recaptcha</title>
+<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
+
+<regex>
+<name>savecookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>save[stream4Free.lwp]</cookieJar>
+</regex>
+
+<regex>
+<name>getmainPage</name>
+<expres>source src="(.*?)"</expres>
+<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/friends',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>loadcookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>open[stream4Free.lwp]</cookieJar>
+</regex>
+
+</item>
+
+
+
+
+<item>
+<title>https://www.stream4free.live/workaholics Google recaptcha</title>
+<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
+
+<regex>
+<name>savecookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>save[stream4Free.lwp]</cookieJar>
+</regex>
+
+<regex>
+<name>getmainPage</name>
+<expres>source src="(.*?)"</expres>
+<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/workaholics',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>loadcookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>open[stream4Free.lwp]</cookieJar>
+</regex>
+
+</item>
+
+
+
+<item>
+<title>https://www.stream4free.live/himym Google recaptcha</title>
+<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
+
+<regex>
+<name>savecookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>save[stream4Free.lwp]</cookieJar>
+</regex>
+
+<regex>
+<name>getmainPage</name>
+<expres>source src="(.*?)"</expres>
+<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/himym',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>loadcookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>open[stream4Free.lwp]</cookieJar>
+</regex>
+
+</item>
+
+
+
+
+<item>
+<title>https://www.stream4free.live/the-big-bang-theory Google recaptcha</title>
+<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
+
+<regex>
+<name>savecookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>save[stream4Free.lwp]</cookieJar>
+</regex>
+
+<regex>
+<name>getmainPage</name>
+<expres>source src="(.*?)"</expres>
+<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/the-big-bang-theory',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>loadcookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>open[stream4Free.lwp]</cookieJar>
+</regex>
+
+</item>
+
+
+
+<item>
+<title>https://www.stream4free.live/the-cleveland-show Google recaptcha</title>
+<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
+
+<regex>
+<name>savecookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>save[stream4Free.lwp]</cookieJar>
+</regex>
+
+<regex>
+<name>getmainPage</name>
+<expres>source src="(.*?)"</expres>
+<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/the-cleveland-show',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>loadcookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>open[stream4Free.lwp]</cookieJar>
+</regex>
+
+</item>
+
+
+
+
+
+
+<item>
+<title>https://www.stream4free.live/archer Google recaptcha</title>
+<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
+
+<regex>
+<name>savecookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>save[stream4Free.lwp]</cookieJar>
+</regex>
+
+<regex>
+<name>getmainPage</name>
+<expres>source src="(.*?)"</expres>
+<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/archer',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>loadcookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>open[stream4Free.lwp]</cookieJar>
+</regex>
+
+</item>
+
+
+
+<item>
+    <title>https://www.stream4free.live/king-of-the-hill</title>
+    <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://www.stream4free.live/king-of-the-hill%26referer=https://www.stream4free.live/king-of-the-hill</link>
+	<thumbnail></thumbnail>
+	<fanart></fanart>
+    </item>
+
+
+
+<item>
+<title>https://www.stream4free.live/king-of-the-hill Google recaptcha</title>
+<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
+
+<regex>
+<name>savecookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>save[stream4Free.lwp]</cookieJar>
+</regex>
+
+<regex>
+<name>getmainPage</name>
+<expres>source src="(.*?)"</expres>
+<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/king-of-the-hill',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>loadcookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>open[stream4Free.lwp]</cookieJar>
+</regex>
+
+</item>
+
+
+
+
+
+
+<item>
+<title>https://www.stream4free.live/greendale-college Google recaptcha</title>
+<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
+
+<regex>
+<name>savecookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>save[stream4Free.lwp]</cookieJar>
+</regex>
+
+<regex>
+<name>getmainPage</name>
+<expres>source src="(.*?)"</expres>
+<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/greendale-college',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>loadcookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>open[stream4Free.lwp]</cookieJar>
+</regex>
+
+</item>
+
+
+
+
+
+<item>
+<title>https://www.stream4free.live/house-md Google recaptcha</title>
+<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
+
+<regex>
+<name>savecookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>save[stream4Free.lwp]</cookieJar>
+</regex>
+
+<regex>
+<name>getmainPage</name>
+<expres>source src="(.*?)"</expres>
+<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/house-md',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>loadcookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>open[stream4Free.lwp]</cookieJar>
+</regex>
+
+</item>
+
+
+
+
+
+<item>
+<title>https://www.stream4free.live/south-park Google recaptcha</title>
+<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
+
+<regex>
+<name>savecookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>save[stream4Free.lwp]</cookieJar>
+</regex>
+
+<regex>
+<name>getmainPage</name>
+<expres>source src="(.*?)"</expres>
+<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/south-park',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>loadcookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>open[stream4Free.lwp]</cookieJar>
+</regex>
+
+</item>
+
+
+
+
+<item>
+<title>https://www.stream4free.live/family-guy Google recaptcha</title>
+<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
+
+<regex>
+<name>savecookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>save[stream4Free.lwp]</cookieJar>
+</regex>
+
+<regex>
+<name>getmainPage</name>
+<expres>source src="(.*?)"</expres>
+<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/family-guy',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>loadcookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>open[stream4Free.lwp]</cookieJar>
+</regex>
+
+</item>
+
+
+<item>
+<plugin>
+    <title>[B][COLOR yellow]==MUSIC==[COLOR blue]==VIDEO==[COLOR lime]==CHANNELS==[/COLOR][/B]</title>
+    <link>none</link>
+	<thumbnail></thumbnail>
+	<fanart></fanart>
+</plugin>
+</item>
+
+
+
+
+
+<item>
+<title>The Box</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='5950'
+  url=getUrl('5950',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail></thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+
+<item>
+<title>The Box hits</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='5947'
+  url=getUrl('5947',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail></thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+
+<item>
+<title>[B][COLOR lime]====MAJIK====[COLOR tomato]====NINJA==[COLOR tomato]UK==[COLOR lime]======IPTV========[/COLOR][/B]</title>
+<link>none</link>
+</item>
+
+
+<item>
+<title>tom and jerry 24/7</title>
+<link>http://ws.flv.nimo.tv/live/su1599512427554r538093ee8e9c2edd24251f82cda6fd16_high.flv</link>
+<thumbnail>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
+</item>
+
+
+<item>
+<title>5*</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='851'
+  url=getUrl('851',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/851/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>5USA</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='845'
+  url=getUrl('845',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/845/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>BBC One</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='14'
+  url=getUrl('14',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/14/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+<item>
+<title>BBC Wales</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='3227'
+  url=getUrl('3227',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/3227/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+<item>
+<title>BBC Scotland</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='3166'
+  url=getUrl('3166',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/3166/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+
+
+<item>
+<title>BBC North Ireland</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='361'
+  url=getUrl('361',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/361/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+<item>
+<title>BBC Two</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='25'
+  url=getUrl('25',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/25/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+<item>
+<title>BBC News</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='27'
+  url=getUrl('27',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/27/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+<item>
+<title>BBC Parliament</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='1666'
+  url=getUrl('1666',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/1666/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+<item>
+<title>BBC Four</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='103'
+  url=getUrl('103',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/103/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>CBS Reality</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='1808'
+  url=getUrl('1808',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/1808/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+<item>
+<title>CBS Reality +1</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='1811'
+  url=getUrl('1811',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/1811/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+<item>
+<title>CBS Drama</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='1805'
+  url=getUrl('1805',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/1805/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+
+<item>
+<title>CBS Action</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='1952'
+  url=getUrl('1952',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/1952/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>Channel 4</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='2'
+  url=getUrl('2',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/2/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+
+
+
+<item>
+<title>Channel 5</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='22'
+  url=getUrl('22',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/22/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>Drama</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='5944'
+  url=getUrl('5944',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail></thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+<item>
+<title>E4</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='65'
+  url=getUrl('65',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/65/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+<item>
+<title>Film 4</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='13'
+  url=getUrl('13',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/13/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+
+
+
+<item>
+<title>Food Network</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='20'
+  url=getUrl('20',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail></thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>Food Network +1</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='1829'
+  url=getUrl('1829',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail></thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+
+
+
+<item>
+<title>Horror Channel</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='836'
+  url=getUrl('836',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/836/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+
+
+
+
+<item>
+<title>itv</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='11'
+  url=getUrl('11',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/11/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+<item>
+<title>itv +1</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='1817'
+  url=getUrl('1817',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/1817/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+<item>
+<title>itv2</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='67'
+  url=getUrl('67',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/67/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+<item>
+<title>itv2 +1</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='1820'
+  url=getUrl('1820',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/1820/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+<item>
+<title>itv3</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='26'
+  url=getUrl('26',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/26/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+<item>
+<title>itv3 +1</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='1823'
+  url=getUrl('1823',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/1823/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+
+<item>
+<title>itv4</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='101'
+  url=getUrl('101',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/101/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+<item>
+<title>itv4 +1</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='1826'
+  url=getUrl('1826',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/1826/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<plugin>
+    <title>itvbe</title>
+    <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://easyview.eu/script.php?stream=itv%26referer=https://easyview.eu/script.php?stream=itvbe</link>
+	<thumbnail></thumbnail>
+	<fanart></fanart>
+</plugin>
+</item>
+
+
+
+<item>
+<title>itvbe</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='3211'
+  url=getUrl('3211',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/3211/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+<item>
+<plugin>
+    <title>kix</title>
+    <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://www.filmon.com/tv/channel/export?channel_id=316%26referer=http://www.filmon.com</link>
+	<thumbnail>https://upload.wikimedia.org/wikipedia/en/6/6d/Kix%21_%28TV_channel_-_logo%29.png</thumbnail>
+	<fanart></fanart>
+</plugin>
+</item>
+
+
+
+
+<item>
+<title>More 4</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='97'
+  url=getUrl('97',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/97/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+
+<item>
+<plugin>
+    <title>MelloTv</title>
+    <link>https://wowzaprod133-i.akamaihd.net/hls/live/577385/a1e0ad3f/playlist.m3u8</link>
+	<thumbnail>http://www.mellotv.com/uc/Mello%203D%20Logo.png</thumbnail>
+	<fanart></fanart>
+</plugin>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+    <title>PBS</title>
+    <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://www.arconaitv.co/stream.php?id=71%26referer=http://www.arconaitv.co</link>
+    <thumbnail>https://lh3.googleusercontent.com/FI1LZe31btig4vA_rXer5BcuA36yb_qKtILoXrG9rMVn0e1PyAk4dKR5J3YMAMnAOxk=w300</thumbnail>
+    <fanart></fanart>
+    </item>
+
+
+
+
+
+
+<item>
+    <title>PBS KIDS 1</title>
+    <link>http://live-cdn.pbskids.org/out/u/est.m3u8</link>
+    <thumbnail>https://valleypbs.org/wp-content/uploads/2015/04/PBS-Kids-e1456355090352.png</thumbnail>
+    <fanart>https://valleypbs.org/wp-content/uploads/2015/04/PBS-Kids-e1456355090352.png</fanart>
+    </item>
+
+
+<item>
+    <title>PBS KIDS 2</title>
+    <link>https://live-cdn.pbskids.org/out/u/aim/koce.m3u8</link>
+    <thumbnail>https://valleypbs.org/wp-content/uploads/2015/04/PBS-Kids-e1456355090352.png</thumbnail>
+    <fanart>https://valleypbs.org/wp-content/uploads/2015/04/PBS-Kids-e1456355090352.png</fanart>
+    </item>
+
+
+<item>
+    <title>PBS KIDS 3</title>
+    <link>https://live-cdn.pbskids.org/out/u/aim/wtvs_3.m3u8</link>
+    <thumbnail>https://valleypbs.org/wp-content/uploads/2015/04/PBS-Kids-e1456355090352.png</thumbnail>
+    <fanart>https://valleypbs.org/wp-content/uploads/2015/04/PBS-Kids-e1456355090352.png</fanart>
+    </item>
+
+
+
+<item>
+    <title>PBS KIDS 4</title>
+    <link>https://live-cdn.pbskids.org/out/u/aim/wttw.m3u8</link>
+    <thumbnail>https://valleypbs.org/wp-content/uploads/2015/04/PBS-Kids-e1456355090352.png</thumbnail>
+    <fanart>https://valleypbs.org/wp-content/uploads/2015/04/PBS-Kids-e1456355090352.png</fanart>
+    </item>
+
+
+
+<item>
+    <title>PBS KIDS 5</title>
+    <link>https://live-cdn.pbskids.org/out/u/aim/wpne.m3u8</link>
+    <thumbnail>https://valleypbs.org/wp-content/uploads/2015/04/PBS-Kids-e1456355090352.png</thumbnail>
+    <fanart>https://valleypbs.org/wp-content/uploads/2015/04/PBS-Kids-e1456355090352.png</fanart>
+    </item>
+
+
+
+
+
+
+
+<item>
+<title>pick tv</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='371'
+  url=getUrl('371',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail></thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+<item>
+<plugin>
+    <title>POP</title>
+    <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://www.filmon.com/tv/channel/export?channel_id=320%26referer=http://www.filmon.com</link>
+	<thumbnail>https://upload.wikimedia.org/wikipedia/en/6/68/Pop_%28UK_TV_channel%29_logo.png</thumbnail>
+	<fanart></fanart>
+</plugin>
+</item>
+
+
+
+<item>
+<title>Really</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='372'
+  url=getUrl('372',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/372/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+<item>
+<title>Really TV</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='2798'
+  url=getUrl('2798',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/2798/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+<item>
+<plugin>
+    <title>Redbull Tv</title>
+    <link>http://rbtvdiglinear-i.akamaihd.net/hls/live/241719/ATfallback/master.m3u8</link>
+	<thumbnail>https://i.imgur.com/A4GMBN6.png</thumbnail>
+	<fanart></fanart>
+</plugin>
+</item>
+
+
+
+
+
+
+<item>
+<plugin>
+    <title>Tiny Pop</title>
+    <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://www.filmon.com/tv/channel/export?channel_id=318%26referer=http://www.filmon.com</link>
+	<thumbnail>https://upload.wikimedia.org/wikipedia/en/6/6e/Tiny_Pop_2011_logo.png</thumbnail>
+	<fanart></fanart>
+</plugin>
+</item>
+
+
+
+
+<item>
+<title>Travel Channel+1</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='842'
+  url=getUrl('842',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail></thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+
+<item>
+<title>truTV</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='3707'
+  url=getUrl('3707',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/3707/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+
+
+
+
+
+<item>
+<title>Yesterday</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  refpage = 'https://www.filmon.com/'
+  page = requests.get(refpage)
+  headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': refpage, 'X-Requested-With': 'XMLHttpRequest', 'Cookie': str(page.cookies)}
+  params = {'channel_id': param, 'quality': 'high'}
+  url2 = 'https://www.filmon.com/ajax/getChannelInfo'
+  source1 = requests.post(url2, params=params, headers=headers1).text
+  return re.findall('"high","url":"([^"]+)"', source1)[0].replace('\/', '/')
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='1039'
+  url=getUrl('1039',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail>https://static.filmon.com/assets/channels/1039/big_logo.png</thumbnail>
+<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+
+
+
+
+
+
+
+<item>
+<title>[COLOR red]Majik Ninja IPTV[/COLOR]</title>
+<link>ignor</link>
+<externallink>https://pastebin.com/raw/TvfjzngA</externallink>
+<thumbnail>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR red]FLUXUS IPTV[/COLOR]</title>
+<link>ignor</link>
+<externallink>https://pastebin.com/raw/ZzGTySZE</externallink>
+<thumbnail>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR red]CCLOUD IPTV[/COLOR]</title>
+<link>ignor</link>
+<externallink>http://ccld.io/atom.m3u</externallink>
+<thumbnail>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR lime]==========[COLOR blue]=====adult===[COLOR lime]==============[/COLOR][/B]</title>
+<link>ignor</link>
+<externallink>https://pastebin.com/raw/mwHZHBpe</externallink>
+<thumbnail></thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR lime]==========[COLOR blue]======test123====[COLOR lime]==============[/COLOR][/B]</title>
+<link>ignor</link>
+<externallink>https://pastebin.com/raw/f0Sb5ZxW</externallink>
+<thumbnail>https://pbs.twimg.com/profile_images/1027251801270177792/bdQpKIyD_400x400.jpg</thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
+</item>
+
+
+
+
+<item> 
+<title>[B][COLOR lime]==PREMIUM====[COLOR blue]======USA==AND=UK=[COLOR lime]====IPTV==[/COLOR][/B]</title>             
+<link>$doregex[makelist2]</link>
+<regex>
+<name>makelist2</name>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<listrepeat><![CDATA[
+<title>[B][COLOR red][makelist2.param2][/COLOR][/B]</title> 
+<link>plugin://plugin.video.f4mTester/?url=[makelist2.param3]&amp;streamtype=HLSRETRY&amp;name=[makelist2.param2]</link>
+<thumbnail></thumbnail>
+<fanart></fanart>    
+]]></listrepeat>
+<expres><![CDATA[#EXTINF:(.*),(.*)\s(http.*://(.*)/live.*m3u8)]]></expres>
+<page><![CDATA[https://pastebin.com/raw/a1dSwKJ8]]></page>
+<cookieJar></cookieJar>
+</regex>   
+</item>
+
+
+
+
+
+
+
+<item> 
+<title>[B][COLOR lime]==PREMIUM====[COLOR red]====WORLD====[COLOR lime]====IPTV==[/COLOR][/B]</title>             
+<link>$doregex[makelist2]</link>
+<regex>
+<name>makelist2</name>
+<thumbnail>https://3.bp.blogspot.com/-Rt7PuVBDTXs/Wj1hDDEV4QI/AAAAAAAAAdk/P2T8g9z6-WgQ4hQBI7cIfXQDGl-xNrmJgCLcBGAs/s1700/premium..%2Blist-iptv.com.png</thumbnail>
+<fanart>http://quiztoday.org/wp-content/uploads/2015/06/iStock_000018582428Medium-520x245.jpg</fanart>
+<listrepeat><![CDATA[
+<title>[B][COLOR aqua][makelist2.param2][/COLOR][/B]</title> 
+<link>plugin://plugin.video.f4mTester/?url=[makelist2.param3]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist2.param2]</link>
+<thumbnail>https://3.bp.blogspot.com/-Rt7PuVBDTXs/Wj1hDDEV4QI/AAAAAAAAAdk/P2T8g9z6-WgQ4hQBI7cIfXQDGl-xNrmJgCLcBGAs/s1700/premium..%2Blist-iptv.com.png</thumbnail>
+<fanart>http://quiztoday.org/wp-content/uploads/2015/06/iStock_000018582428Medium-520x245.jpg</fanart>    
+]]></listrepeat>
+<expres><![CDATA[#EXTINF:(.*),(.*)\s(http.*://(.*)/live.*ts)]]></expres>
+<page><![CDATA[http://bestbuyiptv.link:6969/sozcvit@mail.ru/zbvhkmnbt1/18032&output=mpegts]]></page>
+<cookieJar></cookieJar>
+</regex>   
+</item>  
+
+
+
+<item> 
+<title>[B][COLOR lime]==DAILY====[COLOR blue]==UK==AND==USA====[COLOR lime]====IPTV==[/COLOR][/B]</title>             
+<link>$doregex[makelist2]</link>
+<regex>
+<name>makelist2</name>
+<thumbnail>https://3.bp.blogspot.com/-Rt7PuVBDTXs/Wj1hDDEV4QI/AAAAAAAAAdk/P2T8g9z6-WgQ4hQBI7cIfXQDGl-xNrmJgCLcBGAs/s1700/premium..%2Blist-iptv.com.png</thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
+<listrepeat><![CDATA[
+<title>[B][COLOR aqua][makelist2.param2][/COLOR][/B]</title> 
+<link>plugin://plugin.video.f4mTester/?url=[makelist2.param3]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist2.param2]</link>
+<thumbnail>https://3.bp.blogspot.com/-Rt7PuVBDTXs/Wj1hDDEV4QI/AAAAAAAAAdk/P2T8g9z6-WgQ4hQBI7cIfXQDGl-xNrmJgCLcBGAs/s1700/premium..%2Blist-iptv.com.png</thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>    
+]]></listrepeat>
+<expres><![CDATA[#EXTINF:(.*),(.*)\s(http.*://(.*)/live.*ts)]]></expres>
+<page><![CDATA[https://pastebin.com/raw/a1dSwKJ8]]></page>
+<cookieJar></cookieJar>
+</regex>   
+</item>  
+
+
+
+
+
+
+
+
+
+
+<item> 
+<title>[B][COLOR lime]==PREMIUM====[COLOR blue]======test====[COLOR lime]====IPTV==[/COLOR][/B]</title>             
+<link>$doregex[makelist2]</link>
+<regex>
+<name>makelist2</name>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<listrepeat><![CDATA[
+<title>[B][COLOR red][makelist2.param2][/COLOR][/B]</title> 
+<link>plugin://plugin.video.f4mTester/?url=[makelist2.param3]&amp;streamtype=HLSRETRY&amp;name=[makelist2.param2]</link>
+<thumbnail></thumbnail>
+<fanart></fanart>    
+]]></listrepeat>
+<expres><![CDATA[#EXTINF:(.*),(.*)\s(http.*://(.*)/live.*m3u8)]]></expres>
+<page><![CDATA[]]></page>
+<cookieJar></cookieJar>
+</regex>   
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </channel>
