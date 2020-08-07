@@ -987,6 +987,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
+<item>
+<plugin>
+    <title>[B][COLOR yellow]MUSIC CHOICE[/COLOR][/B]</title>
+    <link>plugin://plugin.video.live.streamspro/?url=plugin%3A%2F%2Fplugin.video.f4mTester%2F%3Furl%3Dhttps%3A%2F%2Ftv4.live%2Fapi%2Fstream%2Fpaublo53%40neclipspui.com%2F144433%2Flivetv.epg%2Fmusic.choice.us.m3u8%26streamtype%3DHLSRETRY%26name%3DMusic+Choice&amp;mode=12&amp;iconimage=https%3A%2F%2Ficdn2.digitaltrends.com%2Fimage%2Fhulu-screenshot-4-720x720.jpg%3Fver%3D1.jpg</link>
+	<thumbnail></thumbnail>
+	<fanart></fanart>
+</plugin>
+</item>
+
+
+
 
 
 <item>
