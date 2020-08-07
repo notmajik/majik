@@ -117,7 +117,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
+<item>
+<plugin>
+    <title>[B][COLOR yellow]==24/7==[COLOR blue]==TV=SHOW==[COLOR lime]==CHANNELS==[/COLOR][/B]</title>
+    <link>none</link>
+	<thumbnail></thumbnail>
+	<fanart></fanart>
+</plugin>
+</item>
 
 
 
