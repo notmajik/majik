@@ -50,821 +50,277 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<item> 
-<title>[COLOR pink][B]CABLE TV LIST 1[/B][/COLOR]</title>             
-<link>$doregex[makelist2]</link>
+
+
+ 
+ 
+<item>
+<title>rick-and-morty</title>
+<link>$doregex[getM3U8]</link>
 <regex>
-<name>makelist2</name>
-<thumbnail>https://icdn2.digitaltrends.com/image/hulu-screenshot-4-720x720.jpg?ver=1.jpg</thumbnail>
-<fanart>https://www.visioneclick.com/wp-content/uploads/2018/02/cable-tv-providers-list.jpg</fanart>
-<listrepeat><![CDATA[
-<title>[B][COLOR lime][makelist2.param2][/COLOR][/B]</title> 
-<link>plugin://plugin.video.f4mTester/?url=[makelist2.param3]&amp;streamtype=HLSRETRY&amp;name=[makelist2.param2]</link>
-<thumbnail>https://icdn2.digitaltrends.com/image/hulu-screenshot-4-720x720.jpg?ver=1.jpg</thumbnail>
-<fanart>https://www.visioneclick.com/wp-content/uploads/2018/02/cable-tv-providers-list.jpg</fanart>    
-]]></listrepeat>
-<expres><![CDATA[#EXTINF:(.*),(.*)\s(http.*://(.*)/live.*m3u8)]]></expres>
-<page><![CDATA[https://tv4.live/api/list/paublo53@neclipspui.com/144433]]></page>
+<name>getM3U8</name>
+<expres>"url":"(.*?)"</expres>
+<page>https://www.adultswim.com/api/shows/v1/media/jqX79_YeQkm3I9kHJYGAXA/desktop</page>
+<referer>https://www.adultswim.com/streams/rick-and-morty</referer>
+<agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent>
 <cookieJar></cookieJar>
-</regex>   
+</regex>
 </item>
-
-
-
-<item> 
-<title>[COLOR lime][B]CABLE TV LIST 2[/B][/COLOR]</title>             
-<link>$doregex[makelist2]</link>
+ 
+ 
+ 
+<item>
+<title>robot chicken</title>
+<link>$doregex[getM3U8]</link>
 <regex>
-<name>makelist2</name>
-<thumbnail>https://icdn2.digitaltrends.com/image/hulu-screenshot-4-720x720.jpg?ver=1.jpg</thumbnail>
-<fanart>https://www.visioneclick.com/wp-content/uploads/2018/02/cable-tv-providers-list.jpg</fanart>
-<listrepeat><![CDATA[
-<title>[B][COLOR lime][makelist2.param2][/COLOR][/B]</title> 
-<link>plugin://plugin.video.f4mTester/?url=[makelist2.param3]&amp;streamtype=HLSRETRY&amp;name=[makelist2.param2]</link>
-<thumbnail></thumbnail>
-<fanart>https://www.visioneclick.com/wp-content/uploads/2018/02/cable-tv-providers-list.jpg</fanart>    
-]]></listrepeat>
-<expres><![CDATA[#EXTINF:(.*),(.*)\s(http.*://(.*)/live.*m3u8)]]></expres>
-<page><![CDATA[https://tv4.live/api/list/vutyzab@getnada.com/215795]]></page>
+<name>getM3U8</name>
+<expres>"url":"(.*?)"</expres>
+<page>https://www.adultswim.com/api/shows/v1/media/FeaqiXGYSiuuOMWIxcwKyA/desktop</page>
+<referer>https://www.adultswim.com/streams/robot-chicken</referer>
+<agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent>
 <cookieJar></cookieJar>
-</regex>   
+</regex>
 </item>
-
-
-
-
-
-
-<item> 
-<title>[COLOR pink][B]CABLE TV LIST 3[/B][/COLOR]</title>             
-<link>$doregex[makelist2]</link>
+ 
+ 
+<item>
+<title>aqua-teen-hunger-force</title>
+<link>$doregex[getM3U8]</link>
 <regex>
-<name>makelist2</name>
-<thumbnail>https://icdn2.digitaltrends.com/image/hulu-screenshot-4-720x720.jpg?ver=1.jpg</thumbnail>
-<fanart>https://www.visioneclick.com/wp-content/uploads/2018/02/cable-tv-providers-list.jpg</fanart>
-<listrepeat><![CDATA[
-<title>[B][COLOR lime][makelist2.param2][/COLOR][/B]</title> 
-<link>plugin://plugin.video.f4mTester/?url=[makelist2.param3]&amp;streamtype=HLSRETRY&amp;name=[makelist2.param2]</link>
-<thumbnail>https://icdn2.digitaltrends.com/image/hulu-screenshot-4-720x720.jpg?ver=1.jpg</thumbnail>
-<fanart>https://www.visioneclick.com/wp-content/uploads/2018/02/cable-tv-providers-list.jpg</fanart>    
-]]></listrepeat>
-<expres><![CDATA[#EXTINF:(.*),(.*)\s(http.*://(.*)/live.*m3u8)]]></expres>
-<page><![CDATA[https://tv4.live/api/list/temop@getnada.com/612905]]></page>
+<name>getM3U8</name>
+<expres>"url":"(.*?)"</expres>
+<page>https://www.adultswim.com/api/shows/v1/media/C0o6M1oAT6Sm2SZ-wqWWaw/desktop</page>
+<referer>https://www.adultswim.com/streams/robot-chicken</referer>
+<agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent>
 <cookieJar></cookieJar>
-</regex>   
+</regex>
 </item>
-
-
-
-
+ 
+ 
 <item>
 <plugin>
-    <title>[B][COLOR yellow]==24/7==[COLOR blue]==TV=SHOW==[COLOR lime]==CHANNELS==[/COLOR][/B]</title>
-    <link>none</link>
-	<thumbnail></thumbnail>
-	<fanart></fanart>
+    <title>Weather Nation</title><link>http://cdnapi.kaltura.com/p/931702/sp/93170200/playManifest/entryId/1_oorxcge2/format/applehttp/protocol/http/uiConfId/28428751/a.m3u8</link>
+    <thumbnail>https://upload.wikimedia.org/wikipedia/en/e/e2/WeatherNation_logo.png</thumbnail>
+    <fanart></fanart>
 </plugin>
 </item>
-
-
-
-
+ 
+ 
+ 
+ 
+ 
 <item>
-<title>https://www.stream4free.live/south-park-us Google recaptcha</title>
-<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
-
-<regex>
-<name>savecookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>save[stream4Free.lwp]</cookieJar>
-</regex>
-
-<regex>
-<name>getmainPage</name>
-<expres>source src="(.*?)"</expres>
-<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/south-park-us',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>loadcookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>open[stream4Free.lwp]</cookieJar>
-</regex>
-
+<plugin>
+    <title>channel 1</title>
+    <link>https://stream.allsprk.tv/live/0/index.m3u8</link>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+</plugin>
 </item>
-
-
-
+ 
 <item>
-<title>https://www.stream4free.live/adventure-time-hd Google recaptcha</title>
-<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
-
-<regex>
-<name>savecookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>save[stream4Free.lwp]</cookieJar>
-</regex>
-
-<regex>
-<name>getmainPage</name>
-<expres>source src="(.*?)"</expres>
-<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/adventure-time-hd',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>loadcookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>open[stream4Free.lwp]</cookieJar>
-</regex>
-
+<plugin>
+    <title>channel 2</title>
+    <link>https://stream.allsprk.tv/live/1/index.m3u8</link>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+</plugin>
 </item>
-
-
-
-
-
-
+ 
+ 
+ 
+ 
 <item>
-<title>https://www.stream4free.live/rick-and-morty Google recaptcha</title>
-<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
-
-<regex>
-<name>savecookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>save[stream4Free.lwp]</cookieJar>
-</regex>
-
-<regex>
-<name>getmainPage</name>
-<expres>source src="(.*?)"</expres>
-<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/rick-and-morty',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>loadcookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>open[stream4Free.lwp]</cookieJar>
-</regex>
-
+<plugin>
+    <title>channel 3</title>
+    <link>https://stream.allsprk.tv/live/2/index.m3u8</link>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+</plugin>
 </item>
-
-
-
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
 <item>
-<title>https://www.stream4free.live/simpsons Google recaptcha</title>
-<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
-
-<regex>
-<name>savecookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>save[stream4Free.lwp]</cookieJar>
-</regex>
-
-<regex>
-<name>getmainPage</name>
-<expres>source src="(.*?)"</expres>
-<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/simpsons',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>loadcookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>open[stream4Free.lwp]</cookieJar>
-</regex>
-
+<plugin>
+    <title>channel 4</title>
+    <link>https://stream.allsprk.tv/live/3/index.m3u8</link>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+</plugin>
 </item>
-
-
-
-
-
-
-
+ 
+ 
+ 
 <item>
-<title>https://www.stream4free.live/always-sunny-in-philadelphia Google recaptcha</title>
-<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
-
-<regex>
-<name>savecookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>save[stream4Free.lwp]</cookieJar>
-</regex>
-
-<regex>
-<name>getmainPage</name>
-<expres>source src="(.*?)"</expres>
-<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/always-sunny-in-philadelphia',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>loadcookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>open[stream4Free.lwp]</cookieJar>
-</regex>
-
+<plugin>
+    <title>channel 5</title>
+    <link>https://stream.allsprk.tv/live/4/index.m3u8</link>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+</plugin>
 </item>
-
-
-
-
+ 
+ 
+ 
+ 
+ 
 <item>
-<title>https://www.stream4free.live/futurama Google recaptcha</title>
-<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
-
-<regex>
-<name>savecookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>save[stream4Free.lwp]</cookieJar>
-</regex>
-
-<regex>
-<name>getmainPage</name>
-<expres>source src="(.*?)"</expres>
-<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/futurama',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>loadcookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>open[stream4Free.lwp]</cookieJar>
-</regex>
-
+<plugin>
+    <title>channel 6</title>
+    <link>https://stream.allsprk.tv/live/5/index.m3u8</link>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+</plugin>
 </item>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+ 
+ 
 <item>
-<title>https://www.stream4free.live/the-office Google recaptcha</title>
-<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
-
-<regex>
-<name>savecookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>save[stream4Free.lwp]</cookieJar>
-</regex>
-
-<regex>
-<name>getmainPage</name>
-<expres>source src="(.*?)"</expres>
-<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/the-office',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>loadcookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>open[stream4Free.lwp]</cookieJar>
-</regex>
-
+<plugin>
+    <title>channel 7</title>
+    <link>https://stream.allsprk.tv/live/6/index.m3u8</link>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+</plugin>
 </item>
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
 <item>
-<title>https://www.stream4free.live/scrubs Google recaptcha</title>
-<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
-
-<regex>
-<name>savecookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>save[stream4Free.lwp]</cookieJar>
-</regex>
-
-<regex>
-<name>getmainPage</name>
-<expres>source src="(.*?)"</expres>
-<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/scrubs',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>loadcookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>open[stream4Free.lwp]</cookieJar>
-</regex>
-
+<plugin>
+    <title>channel 8</title>
+    <link>https://stream.allsprk.tv/live/7/index.m3u8</link>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+</plugin>
 </item>
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
 <item>
-<title>https://www.stream4free.live/brickleberry Google recaptcha</title>
-<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
-
-<regex>
-<name>savecookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>save[stream4Free.lwp]</cookieJar>
-</regex>
-
-<regex>
-<name>getmainPage</name>
-<expres>source src="(.*?)"</expres>
-<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/brickleberry',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>loadcookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>open[stream4Free.lwp]</cookieJar>
-</regex>
-
+<plugin>
+    <title>channel 9</title>
+    <link>https://stream.allsprk.tv/live/8/index.m3u8</link>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+</plugin>
 </item>
-
-
-
-
-
-
+ 
+ 
+ 
 <item>
-<title>https://www.stream4free.live/triptank Google recaptcha</title>
-<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
-
-<regex>
-<name>savecookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>save[stream4Free.lwp]</cookieJar>
-</regex>
-
-<regex>
-<name>getmainPage</name>
-<expres>source src="(.*?)"</expres>
-<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/triptank',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>loadcookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>open[stream4Free.lwp]</cookieJar>
-</regex>
-
+<plugin>
+    <title>channel 10</title>
+    <link>https://stream.allsprk.tv/live/9/index.m3u8</link>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+</plugin>
 </item>
-
-
-
-
-
+ 
+ 
+ 
 <item>
-<title>https://www.stream4free.live/aqua-teen-hunger-force Google recaptcha</title>
-<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
-
-<regex>
-<name>savecookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>save[stream4Free.lwp]</cookieJar>
-</regex>
-
-<regex>
-<name>getmainPage</name>
-<expres>source src="(.*?)"</expres>
-<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/aqua-teen-hunger-force',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>loadcookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>open[stream4Free.lwp]</cookieJar>
-</regex>
-
+<plugin>
+    <title>https://daddylive.live/channels/stream-56.php</title>
+    <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://daddylive.live/channels/stream-56.php%26referer=https://daddylive.live/channels/stream-56.php</link>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+</plugin>
 </item>
-
-
-
-
-
+ 
+ 
+ 
+ 
 <item>
-<title>https://www.stream4free.live/friends Google recaptcha</title>
-<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
-
-<regex>
-<name>savecookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>save[stream4Free.lwp]</cookieJar>
-</regex>
-
-<regex>
-<name>getmainPage</name>
-<expres>source src="(.*?)"</expres>
-<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/friends',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>loadcookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>open[stream4Free.lwp]</cookieJar>
-</regex>
-
+<plugin>
+    <title>https://daddylive.live/channels/stream-51.php</title>
+    <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://daddylive.live/channels/stream-51.php%26referer=https://daddylive.live/channels/stream-51.php</link>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+</plugin>
 </item>
-
-
-
-
+ 
+ 
+ 
+ 
 <item>
-<title>https://www.stream4free.live/workaholics Google recaptcha</title>
-<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
-
-<regex>
-<name>savecookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>save[stream4Free.lwp]</cookieJar>
-</regex>
-
-<regex>
-<name>getmainPage</name>
-<expres>source src="(.*?)"</expres>
-<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/workaholics',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>loadcookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>open[stream4Free.lwp]</cookieJar>
-</regex>
-
+<title>PLUTO TV MOVIES</title>
+<inputstream>http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5c5c3b948002db3c3e0b262e/master.m3u8?advertisingId=&amp;appName=web&amp;appVersion=5.5.1-47ae969efab27ec552faf45ab4c7e4c6a50ac344&amp;architecture=&amp;buildVersion=&amp;clientTime=&amp;deviceDNT=0&amp;deviceId=5c5c3b948002db3c3e0b262e&amp;deviceLat=&amp;deviceLon=&amp;deviceMake=Chrome&amp;deviceModel=Chrome&amp;deviceType=web&amp;deviceVersion=83.0.4103.116&amp;includeExtendedEvents=false&amp;marketingRegion=DE&amp;sid=f2b2e804-98d9-40db-95ed-1215e613a7e0&amp;userId=&amp;serverSideAds=true|User-Agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36</inputstream>
+<thumbnail>http://images.pluto.tv/channels/5c5c3b948002db3c3e0b262e/thumbnail.jpg?w=250&amp;h=250&amp;fm=jpg&amp;q=75&amp;fit=fill&amp;fill=blur</thumbnail>
+<fanart>http://pluto.tv.s3.amazonaws.com/channels/5c5c3b948002db3c3e0b262e/featuredImage.jpg</fanart>
 </item>
-
-
-
+ 
+ 
 <item>
-<title>https://www.stream4free.live/himym Google recaptcha</title>
-<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
-
-<regex>
-<name>savecookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>save[stream4Free.lwp]</cookieJar>
-</regex>
-
-<regex>
-<name>getmainPage</name>
-<expres>source src="(.*?)"</expres>
-<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/himym',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>loadcookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>open[stream4Free.lwp]</cookieJar>
-</regex>
-
+<plugin>
+    <title>toonami aftermath est</title>
+    <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://api.toonamiaftermath.com/streamUrl?channelName=est&timezoneOffset=4&useHttps=true%26referer=https://api.toonamiaftermath.com/streamUrl?channelName=est&timezoneOffset=4&useHttps=true</link>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+</plugin>
 </item>
-
-
-
-
+ 
+ 
+ 
+ 
+ 
 <item>
-<title>https://www.stream4free.live/the-big-bang-theory Google recaptcha</title>
-<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
-
-<regex>
-<name>savecookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>save[stream4Free.lwp]</cookieJar>
-</regex>
-
-<regex>
-<name>getmainPage</name>
-<expres>source src="(.*?)"</expres>
-<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/the-big-bang-theory',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>loadcookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>open[stream4Free.lwp]</cookieJar>
-</regex>
-
+<plugin>
+    <title>toonami aftermath movies</title>
+    <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://api.toonamiaftermath.com/streamUrl?channelName=movies&timezoneOffset=4&useHttps=true%26referer=https://api.toonamiaftermath.com/streamUrl?channelName=movies&timezoneOffset=4&useHttps=true</link>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+</plugin>
 </item>
-
-
-
+ 
+ 
 <item>
-<title>https://www.stream4free.live/the-cleveland-show Google recaptcha</title>
-<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
-
-<regex>
-<name>savecookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>save[stream4Free.lwp]</cookieJar>
-</regex>
-
-<regex>
-<name>getmainPage</name>
-<expres>source src="(.*?)"</expres>
-<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/the-cleveland-show',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>loadcookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>open[stream4Free.lwp]</cookieJar>
-</regex>
-
+<plugin>
+    <title>toonami aftermath radio</title>
+    <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://api.toonamiaftermath.com/streamUrl?channelName=radio&timezoneOffset=4&useHttps=true%26referer=https://api.toonamiaftermath.com/streamUrl?channelName=radio&timezoneOffset=4&useHttps=true</link>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+</plugin>
 </item>
-
-
-
-
-
-
-<item>
-<title>https://www.stream4free.live/archer Google recaptcha</title>
-<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
-
-<regex>
-<name>savecookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>save[stream4Free.lwp]</cookieJar>
-</regex>
-
-<regex>
-<name>getmainPage</name>
-<expres>source src="(.*?)"</expres>
-<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/archer',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>loadcookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>open[stream4Free.lwp]</cookieJar>
-</regex>
-
-</item>
-
-
-
-<item>
-    <title>https://www.stream4free.live/king-of-the-hill</title>
-    <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://www.stream4free.live/king-of-the-hill%26referer=https://www.stream4free.live/king-of-the-hill</link>
-	<thumbnail></thumbnail>
-	<fanart></fanart>
-    </item>
-
-
-
-<item>
-<title>https://www.stream4free.live/king-of-the-hill Google recaptcha</title>
-<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
-
-<regex>
-<name>savecookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>save[stream4Free.lwp]</cookieJar>
-</regex>
-
-<regex>
-<name>getmainPage</name>
-<expres>source src="(.*?)"</expres>
-<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/king-of-the-hill',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>loadcookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>open[stream4Free.lwp]</cookieJar>
-</regex>
-
-</item>
-
-
-
-
-
-
-<item>
-<title>https://www.stream4free.live/greendale-college Google recaptcha</title>
-<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
-
-<regex>
-<name>savecookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>save[stream4Free.lwp]</cookieJar>
-</regex>
-
-<regex>
-<name>getmainPage</name>
-<expres>source src="(.*?)"</expres>
-<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/greendale-college',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>loadcookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>open[stream4Free.lwp]</cookieJar>
-</regex>
-
-</item>
-
-
-
-
-
-<item>
-<title>https://www.stream4free.live/house-md Google recaptcha</title>
-<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
-
-<regex>
-<name>savecookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>save[stream4Free.lwp]</cookieJar>
-</regex>
-
-<regex>
-<name>getmainPage</name>
-<expres>source src="(.*?)"</expres>
-<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/house-md',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>loadcookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>open[stream4Free.lwp]</cookieJar>
-</regex>
-
-</item>
-
-
-
-
-
-<item>
-<title>https://www.stream4free.live/south-park Google recaptcha</title>
-<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
-
-<regex>
-<name>savecookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>save[stream4Free.lwp]</cookieJar>
-</regex>
-
-<regex>
-<name>getmainPage</name>
-<expres>source src="(.*?)"</expres>
-<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/south-park',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>loadcookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>open[stream4Free.lwp]</cookieJar>
-</regex>
-
-</item>
-
-
-
-
-<item>
-<title>https://www.stream4free.live/family-guy Google recaptcha</title>
-<link>$doregex[loadcookie]$doregex[getmainPage]$doregex[savecookie]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</link>
-
-<regex>
-<name>savecookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>save[stream4Free.lwp]</cookieJar>
-</regex>
-
-<regex>
-<name>getmainPage</name>
-<expres>source src="(.*?)"</expres>
-<page>$pyFunction: unCaptcha.performCaptcha('https://www.stream4free.live/family-guy',Cookie_Jar,returnpage=True,captcharegex='sitekey: "(.*?)"')</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>loadcookie</name>
-<expres></expres>
-<page></page>
-<cookieJar>open[stream4Free.lwp]</cookieJar>
-</regex>
-
-</item>
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 <item>
 <plugin>
     <title>[B][COLOR yellow]==MUSIC==[COLOR blue]==VIDEO==[COLOR lime]==CHANNELS==[/COLOR][/B]</title>
     <link>none</link>
-	<thumbnail></thumbnail>
-	<fanart></fanart>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
 </plugin>
 </item>
-
-
-
-
-
+ 
+ 
+ 
+<item>
+<plugin>
+    <title>box hits</title>
+<link>http://csm-e.tm.yospace.com/csm/extlive/boxplus01,boxhits-desktop.m3u8?yo.up=http%3a%2f%2fboxtv-origin-elb.cds1.yospace.com%2fuploads%2fboxhits%2f</link>
+    <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Box_hits.svg/1280px-Box_hits.svg.png</thumbnail>
+    <fanart></fanart>
+</plugin>
+</item>
+ 
+ 
+ 
+ 
 <item>
 <title>The Box</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -879,7 +335,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -890,7 +346,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -922,11 +378,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail></thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
 <item>
 <title>The Box hits</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -941,7 +397,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -952,7 +408,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -984,36 +440,49 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail></thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
+ 
+ 
+ 
+ 
 <item>
-<plugin>
-    <title>[B][COLOR yellow]MUSIC CHOICE[/COLOR][/B]</title>
-    <link>plugin://plugin.video.live.streamspro/?url=plugin%3A%2F%2Fplugin.video.f4mTester%2F%3Furl%3Dhttps%3A%2F%2Ftv4.live%2Fapi%2Fstream%2Fpaublo53%40neclipspui.com%2F144433%2Flivetv.epg%2Fmusic.choice.us.m3u8%26streamtype%3DHLSRETRY%26name%3DMusic+Choice&amp;mode=12&amp;iconimage=https%3A%2F%2Ficdn2.digitaltrends.com%2Fimage%2Fhulu-screenshot-4-720x720.jpg%3Fver%3D1.jpg</link>
-	<thumbnail></thumbnail>
-	<fanart></fanart>
-</plugin>
+<title>pop x</title>
+<link>http://video.pluto.tv/dash_radio/station28/chunklist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
 </item>
-
-
-
-
-
+ 
+ 
+<item>
+<title>the city</title>
+<link>http://video.pluto.tv/dash_radio/station49/chunklist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+<item>
+<title>country</title>
+<link>http://video.pluto.tv/dash_radio/station43/chunklist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+<item>
+<title>90s</title>
+<link>http://video.pluto.tv/dash_radio/station62/chunklist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+ 
 <item>
 <title>[B][COLOR lime]====MAJIK====[COLOR tomato]====NINJA==[COLOR tomato]UK==[COLOR lime]======IPTV========[/COLOR][/B]</title>
 <link>none</link>
 </item>
-
-
-<item>
-<title>tom and jerry 24/7</title>
-<link>http://ws.flv.nimo.tv/live/su1599512427554r538093ee8e9c2edd24251f82cda6fd16_high.flv</link>
-<thumbnail>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</thumbnail>
-<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
-</item>
-
-
+ 
+ 
+ 
 <item>
 <title>5*</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -1028,7 +497,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -1039,7 +508,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -1071,19 +540,19 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/851/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 <item>
 <title>5USA</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -1098,7 +567,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -1109,7 +578,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -1141,24 +610,24 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/845/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 <item>
 <title>BBC One</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -1173,7 +642,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -1184,7 +653,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -1216,8 +685,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/14/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
+ 
+ 
 <item>
 <title>BBC Wales</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -1232,7 +701,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -1243,7 +712,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -1275,8 +744,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/3227/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
+ 
+ 
 <item>
 <title>BBC Scotland</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -1291,7 +760,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -1302,7 +771,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -1334,12 +803,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/3166/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
 <item>
 <title>BBC North Ireland</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -1354,7 +823,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -1365,7 +834,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -1397,9 +866,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/361/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
+ 
+ 
+ 
 <item>
 <title>BBC Two</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -1414,7 +883,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -1425,7 +894,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -1457,7 +926,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/25/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
+ 
 <item>
 <title>BBC News</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -1472,7 +941,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -1483,7 +952,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -1515,10 +984,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/27/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
+ 
+ 
+ 
+ 
 <item>
 <title>BBC Parliament</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -1533,7 +1002,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -1544,7 +1013,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -1576,7 +1045,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/1666/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
+ 
 <item>
 <title>BBC Four</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -1591,7 +1060,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -1602,7 +1071,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -1634,20 +1103,20 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/103/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 <item>
 <title>CBS Reality</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -1662,7 +1131,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -1673,7 +1142,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -1705,9 +1174,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/1808/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
+ 
+ 
+ 
 <item>
 <title>CBS Reality +1</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -1722,7 +1191,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -1733,7 +1202,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -1765,10 +1234,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/1811/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
+ 
+ 
+ 
+ 
 <item>
 <title>CBS Drama</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -1783,7 +1252,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -1794,7 +1263,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -1826,11 +1295,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/1805/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
 <item>
 <title>CBS Action</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -1845,7 +1314,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -1856,7 +1325,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -1888,22 +1357,22 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/1952/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 <item>
 <title>Channel 4</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -1918,7 +1387,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -1929,7 +1398,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -1961,13 +1430,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/2/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 <item>
 <title>Channel 5</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -1982,7 +1451,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -1993,7 +1462,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -2025,23 +1494,23 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/22/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 <item>
 <title>Drama</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -2056,7 +1525,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -2067,7 +1536,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -2099,10 +1568,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail></thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
+ 
+ 
+ 
+ 
 <item>
 <title>E4</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -2117,7 +1586,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -2128,7 +1597,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -2160,10 +1629,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/65/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
+ 
+ 
+ 
+ 
 <item>
 <title>Film 4</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -2178,7 +1647,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -2189,7 +1658,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -2221,13 +1690,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/13/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 <item>
 <title>Food Network</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -2242,7 +1711,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -2253,7 +1722,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -2285,21 +1754,21 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail></thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 <item>
 <title>Food Network +1</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -2314,7 +1783,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -2325,7 +1794,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -2357,13 +1826,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail></thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 <item>
 <title>Horror Channel</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -2378,7 +1847,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -2389,7 +1858,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -2421,14 +1890,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/836/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 <item>
 <title>itv</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -2443,7 +1912,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -2454,7 +1923,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -2486,10 +1955,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/11/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
+ 
+ 
+ 
+ 
 <item>
 <title>itv +1</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -2504,7 +1973,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -2515,7 +1984,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -2547,8 +2016,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/1817/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
+ 
+ 
 <item>
 <title>itv2</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -2563,7 +2032,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -2574,7 +2043,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -2606,8 +2075,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/67/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
+ 
+ 
 <item>
 <title>itv2 +1</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -2622,7 +2091,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -2633,7 +2102,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -2665,8 +2134,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/1820/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
+ 
+ 
 <item>
 <title>itv3</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -2681,7 +2150,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -2692,7 +2161,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -2724,10 +2193,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/26/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
+ 
+ 
+ 
+ 
 <item>
 <title>itv3 +1</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -2742,7 +2211,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -2753,7 +2222,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -2785,11 +2254,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/1823/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
 <item>
 <title>itv4</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -2804,7 +2273,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -2815,7 +2284,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -2847,8 +2316,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/101/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
+ 
+ 
 <item>
 <title>itv4 +1</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -2863,7 +2332,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -2874,7 +2343,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -2906,29 +2375,29 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/1826/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 <item>
 <plugin>
     <title>itvbe</title>
     <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://easyview.eu/script.php?stream=itv%26referer=https://easyview.eu/script.php?stream=itvbe</link>
-	<thumbnail></thumbnail>
-	<fanart></fanart>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
 </plugin>
 </item>
-
-
-
+ 
+ 
+ 
 <item>
 <title>itvbe</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -2943,7 +2412,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -2954,7 +2423,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -2986,21 +2455,21 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/3211/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
+ 
+ 
+ 
 <item>
 <plugin>
     <title>kix</title>
     <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://www.filmon.com/tv/channel/export?channel_id=316%26referer=http://www.filmon.com</link>
-	<thumbnail>https://upload.wikimedia.org/wikipedia/en/6/6d/Kix%21_%28TV_channel_-_logo%29.png</thumbnail>
-	<fanart></fanart>
+    <thumbnail>https://upload.wikimedia.org/wikipedia/en/6/6d/Kix%21_%28TV_channel_-_logo%29.png</thumbnail>
+    <fanart></fanart>
 </plugin>
 </item>
-
-
-
-
+ 
+ 
+ 
+ 
 <item>
 <title>More 4</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -3015,7 +2484,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -3026,7 +2495,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -3058,93 +2527,93 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/97/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
 <item>
 <plugin>
     <title>MelloTv</title>
     <link>https://wowzaprod133-i.akamaihd.net/hls/live/577385/a1e0ad3f/playlist.m3u8</link>
-	<thumbnail>http://www.mellotv.com/uc/Mello%203D%20Logo.png</thumbnail>
-	<fanart></fanart>
+    <thumbnail>http://www.mellotv.com/uc/Mello%203D%20Logo.png</thumbnail>
+    <fanart></fanart>
 </plugin>
 </item>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 <item>
     <title>PBS</title>
     <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://www.arconaitv.co/stream.php?id=71%26referer=http://www.arconaitv.co</link>
     <thumbnail>https://lh3.googleusercontent.com/FI1LZe31btig4vA_rXer5BcuA36yb_qKtILoXrG9rMVn0e1PyAk4dKR5J3YMAMnAOxk=w300</thumbnail>
     <fanart></fanart>
     </item>
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
 <item>
     <title>PBS KIDS 1</title>
     <link>http://live-cdn.pbskids.org/out/u/est.m3u8</link>
     <thumbnail>https://valleypbs.org/wp-content/uploads/2015/04/PBS-Kids-e1456355090352.png</thumbnail>
     <fanart>https://valleypbs.org/wp-content/uploads/2015/04/PBS-Kids-e1456355090352.png</fanart>
     </item>
-
-
+ 
+ 
 <item>
     <title>PBS KIDS 2</title>
     <link>https://live-cdn.pbskids.org/out/u/aim/koce.m3u8</link>
     <thumbnail>https://valleypbs.org/wp-content/uploads/2015/04/PBS-Kids-e1456355090352.png</thumbnail>
     <fanart>https://valleypbs.org/wp-content/uploads/2015/04/PBS-Kids-e1456355090352.png</fanart>
     </item>
-
-
+ 
+ 
 <item>
     <title>PBS KIDS 3</title>
     <link>https://live-cdn.pbskids.org/out/u/aim/wtvs_3.m3u8</link>
     <thumbnail>https://valleypbs.org/wp-content/uploads/2015/04/PBS-Kids-e1456355090352.png</thumbnail>
     <fanart>https://valleypbs.org/wp-content/uploads/2015/04/PBS-Kids-e1456355090352.png</fanart>
     </item>
-
-
-
+ 
+ 
+ 
 <item>
     <title>PBS KIDS 4</title>
     <link>https://live-cdn.pbskids.org/out/u/aim/wttw.m3u8</link>
     <thumbnail>https://valleypbs.org/wp-content/uploads/2015/04/PBS-Kids-e1456355090352.png</thumbnail>
     <fanart>https://valleypbs.org/wp-content/uploads/2015/04/PBS-Kids-e1456355090352.png</fanart>
     </item>
-
-
-
+ 
+ 
+ 
 <item>
     <title>PBS KIDS 5</title>
     <link>https://live-cdn.pbskids.org/out/u/aim/wpne.m3u8</link>
     <thumbnail>https://valleypbs.org/wp-content/uploads/2015/04/PBS-Kids-e1456355090352.png</thumbnail>
     <fanart>https://valleypbs.org/wp-content/uploads/2015/04/PBS-Kids-e1456355090352.png</fanart>
     </item>
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 <item>
 <title>pick tv</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -3159,7 +2628,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -3170,7 +2639,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -3202,21 +2671,21 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail></thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
+ 
+ 
+ 
+ 
 <item>
 <plugin>
     <title>POP</title>
     <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://www.filmon.com/tv/channel/export?channel_id=320%26referer=http://www.filmon.com</link>
-	<thumbnail>https://upload.wikimedia.org/wikipedia/en/6/68/Pop_%28UK_TV_channel%29_logo.png</thumbnail>
-	<fanart></fanart>
+    <thumbnail>https://upload.wikimedia.org/wikipedia/en/6/68/Pop_%28UK_TV_channel%29_logo.png</thumbnail>
+    <fanart></fanart>
 </plugin>
 </item>
-
-
-
+ 
+ 
+ 
 <item>
 <title>Really</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -3231,7 +2700,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -3242,7 +2711,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -3274,8 +2743,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/372/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
+ 
+ 
 <item>
 <title>Really TV</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -3290,7 +2759,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -3301,7 +2770,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -3333,36 +2802,36 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/2798/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
+ 
+ 
+ 
+ 
 <item>
 <plugin>
     <title>Redbull Tv</title>
     <link>http://rbtvdiglinear-i.akamaihd.net/hls/live/241719/ATfallback/master.m3u8</link>
-	<thumbnail>https://i.imgur.com/A4GMBN6.png</thumbnail>
-	<fanart></fanart>
+    <thumbnail>https://i.imgur.com/A4GMBN6.png</thumbnail>
+    <fanart></fanart>
 </plugin>
 </item>
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
 <item>
 <plugin>
     <title>Tiny Pop</title>
     <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://www.filmon.com/tv/channel/export?channel_id=318%26referer=http://www.filmon.com</link>
-	<thumbnail>https://upload.wikimedia.org/wikipedia/en/6/6e/Tiny_Pop_2011_logo.png</thumbnail>
-	<fanart></fanart>
+    <thumbnail>https://upload.wikimedia.org/wikipedia/en/6/6e/Tiny_Pop_2011_logo.png</thumbnail>
+    <fanart></fanart>
 </plugin>
 </item>
-
-
-
-
+ 
+ 
+ 
+ 
 <item>
 <title>Travel Channel+1</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -3377,7 +2846,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -3388,7 +2857,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -3420,11 +2889,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail></thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
 <item>
 <title>truTV</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -3439,7 +2908,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -3450,7 +2919,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -3482,15 +2951,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/3707/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 <item>
 <title>Yesterday</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]</link>
@@ -3505,7 +2974,7 @@ def getCookiesString(cookieJar):
     except: pass
     #print 'cookieString',cookieString
     return cookieString
-
+ 
 def f4mcallback(param, type, error, Cookie_Jar, url, headers):
   if type==1:
     newurl=getUrl(param,Cookie_Jar)
@@ -3516,7 +2985,7 @@ def f4mcallback(param, type, error, Cookie_Jar, url, headers):
     return newurl,Cookie_Jar
   else:
     return '',None
-
+ 
 def getUrl(param, Cookie_Jar):
   import requests, re, urllib, inspect
   headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
@@ -3548,163 +3017,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 <thumbnail>https://static.filmon.com/assets/channels/1039/big_logo.png</thumbnail>
 <fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
-
-
-
-
-
-
-
-<item>
-<title>[COLOR red]Majik Ninja IPTV[/COLOR]</title>
-<link>ignor</link>
-<externallink>https://pastebin.com/raw/TvfjzngA</externallink>
-<thumbnail>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</thumbnail>
-<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
-</item>
-
-
-
-<item>
-<title>[COLOR red]FLUXUS IPTV[/COLOR]</title>
-<link>ignor</link>
-<externallink>https://pastebin.com/raw/ZzGTySZE</externallink>
-<thumbnail>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</thumbnail>
-<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
-</item>
-
-
-<item>
-<title>[COLOR red]CCLOUD IPTV[/COLOR]</title>
-<link>ignor</link>
-<externallink>http://ccld.io/atom.m3u</externallink>
-<thumbnail>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</thumbnail>
-<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
-</item>
-
-
-
-
-
-
-
-
-
-<item>
-<title>[B][COLOR lime]==========[COLOR blue]=====adult===[COLOR lime]==============[/COLOR][/B]</title>
-<link>ignor</link>
-<externallink>https://pastebin.com/raw/mwHZHBpe</externallink>
-<thumbnail></thumbnail>
-<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
-</item>
-
-
-
-
-
-<item>
-<title>[B][COLOR lime]==========[COLOR blue]======test123====[COLOR lime]==============[/COLOR][/B]</title>
-<link>ignor</link>
-<externallink>https://pastebin.com/raw/f0Sb5ZxW</externallink>
-<thumbnail>https://pbs.twimg.com/profile_images/1027251801270177792/bdQpKIyD_400x400.jpg</thumbnail>
-<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
-</item>
-
-
-
-
-<item> 
-<title>[B][COLOR lime]==PREMIUM====[COLOR blue]======USA==AND=UK=[COLOR lime]====IPTV==[/COLOR][/B]</title>             
-<link>$doregex[makelist2]</link>
-<regex>
-<name>makelist2</name>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<listrepeat><![CDATA[
-<title>[B][COLOR red][makelist2.param2][/COLOR][/B]</title> 
-<link>plugin://plugin.video.f4mTester/?url=[makelist2.param3]&amp;streamtype=HLSRETRY&amp;name=[makelist2.param2]</link>
-<thumbnail></thumbnail>
-<fanart></fanart>    
-]]></listrepeat>
-<expres><![CDATA[#EXTINF:(.*),(.*)\s(http.*://(.*)/live.*m3u8)]]></expres>
-<page><![CDATA[https://pastebin.com/raw/a1dSwKJ8]]></page>
-<cookieJar></cookieJar>
-</regex>   
-</item>
-
-
-
-
-
-
-
-<item> 
-<title>[B][COLOR lime]==PREMIUM====[COLOR red]====WORLD====[COLOR lime]====IPTV==[/COLOR][/B]</title>             
-<link>$doregex[makelist2]</link>
-<regex>
-<name>makelist2</name>
-<thumbnail>https://3.bp.blogspot.com/-Rt7PuVBDTXs/Wj1hDDEV4QI/AAAAAAAAAdk/P2T8g9z6-WgQ4hQBI7cIfXQDGl-xNrmJgCLcBGAs/s1700/premium..%2Blist-iptv.com.png</thumbnail>
-<fanart>http://quiztoday.org/wp-content/uploads/2015/06/iStock_000018582428Medium-520x245.jpg</fanart>
-<listrepeat><![CDATA[
-<title>[B][COLOR aqua][makelist2.param2][/COLOR][/B]</title> 
-<link>plugin://plugin.video.f4mTester/?url=[makelist2.param3]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist2.param2]</link>
-<thumbnail>https://3.bp.blogspot.com/-Rt7PuVBDTXs/Wj1hDDEV4QI/AAAAAAAAAdk/P2T8g9z6-WgQ4hQBI7cIfXQDGl-xNrmJgCLcBGAs/s1700/premium..%2Blist-iptv.com.png</thumbnail>
-<fanart>http://quiztoday.org/wp-content/uploads/2015/06/iStock_000018582428Medium-520x245.jpg</fanart>    
-]]></listrepeat>
-<expres><![CDATA[#EXTINF:(.*),(.*)\s(http.*://(.*)/live.*ts)]]></expres>
-<page><![CDATA[http://bestbuyiptv.link:6969/sozcvit@mail.ru/zbvhkmnbt1/18032&output=mpegts]]></page>
-<cookieJar></cookieJar>
-</regex>   
-</item>  
-
-
-
-<item> 
-<title>[B][COLOR lime]==DAILY====[COLOR blue]==UK==AND==USA====[COLOR lime]====IPTV==[/COLOR][/B]</title>             
-<link>$doregex[makelist2]</link>
-<regex>
-<name>makelist2</name>
-<thumbnail>https://3.bp.blogspot.com/-Rt7PuVBDTXs/Wj1hDDEV4QI/AAAAAAAAAdk/P2T8g9z6-WgQ4hQBI7cIfXQDGl-xNrmJgCLcBGAs/s1700/premium..%2Blist-iptv.com.png</thumbnail>
-<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
-<listrepeat><![CDATA[
-<title>[B][COLOR aqua][makelist2.param2][/COLOR][/B]</title> 
-<link>plugin://plugin.video.f4mTester/?url=[makelist2.param3]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist2.param2]</link>
-<thumbnail>https://3.bp.blogspot.com/-Rt7PuVBDTXs/Wj1hDDEV4QI/AAAAAAAAAdk/P2T8g9z6-WgQ4hQBI7cIfXQDGl-xNrmJgCLcBGAs/s1700/premium..%2Blist-iptv.com.png</thumbnail>
-<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>    
-]]></listrepeat>
-<expres><![CDATA[#EXTINF:(.*),(.*)\s(http.*://(.*)/live.*ts)]]></expres>
-<page><![CDATA[https://pastebin.com/raw/a1dSwKJ8]]></page>
-<cookieJar></cookieJar>
-</regex>   
-</item>  
-
-
-
-
-
-
-
-
-
-
-<item> 
-<title>[B][COLOR lime]==PREMIUM====[COLOR blue]======test====[COLOR lime]====IPTV==[/COLOR][/B]</title>             
-<link>$doregex[makelist2]</link>
-<regex>
-<name>makelist2</name>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<listrepeat><![CDATA[
-<title>[B][COLOR red][makelist2.param2][/COLOR][/B]</title> 
-<link>plugin://plugin.video.f4mTester/?url=[makelist2.param3]&amp;streamtype=HLSRETRY&amp;name=[makelist2.param2]</link>
-<thumbnail></thumbnail>
-<fanart></fanart>    
-]]></listrepeat>
-<expres><![CDATA[#EXTINF:(.*),(.*)\s(http.*://(.*)/live.*m3u8)]]></expres>
-<page><![CDATA[]]></page>
-<cookieJar></cookieJar>
-</regex>   
-</item>
 
 
 
