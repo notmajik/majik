@@ -300,7 +300,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  
  <item>
 <title>PLUTO TV comedy central</title>
-<inputstream>https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ca671f215a62078d2ec0abf/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=465&deviceId=5ca671f215a62078d2ec0abf&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false</inputstream>
+<inputstream>https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ca671f215a62078d2ec0abf/master.m3u8?advertisingId=&amp;appName=web&amp;appVersion=5.5.1-47ae969efab27ec552faf45ab4c7e4c6a50ac344&amp;architecture=&amp;buildVersion=&amp;clientTime=&amp;deviceDNT=0&amp;deviceId=5c5c3b948002db3c3e0b262e&amp;deviceLat=&amp;deviceLon=&amp;deviceMake=Chrome&amp;deviceModel=Chrome&amp;deviceType=web&amp;deviceVersion=83.0.4103.116&amp;includeExtendedEvents=false&amp;marketingRegion=DE&amp;sid=f2b2e804-98d9-40db-95ed-1215e613a7e0&amp;userId=&amp;serverSideAds=true|User-Agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36</inputstream>
 <thumbnail>https://images.pluto.tv/channels/5ca671f215a62078d2ec0abf/colorLogoPNG.png</thumbnail>
 <fanart></fanart>
 </item>
