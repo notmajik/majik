@@ -91,68 +91,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
  
  
  
-<item>
-<plugin>
-    <title>cartoon network</title>
-    <link>http://iptv-line.com:7899/live/Wednesday28/eX9CpKtjrH/110068.m3u8</link>
-    <thumbnail></thumbnail>
-    <fanart></fanart>
-</plugin>
-</item>
+
  
  
  
  
  
-<item>
-<plugin>
-    <title>comedy central</title>
-    <link>http://iptv-line.com:7899/live/Wednesday28/eX9CpKtjrH/110119.m3u8</link>
-    <thumbnail></thumbnail>
-    <fanart></fanart>
-</plugin>
-</item>
- 
- 
-<item>
-<plugin>
-    <title>SpongeBobSqPants-24/7</title>
-    <link>http://iptv-line.com:7899/live/Wednesday28/eX9CpKtjrH/76601.m3u8</link>
-    <thumbnail></thumbnail>
-    <fanart></fanart>
-</plugin>
-</item>
- 
- 
-<item>
-<plugin>
-    <title>south park</title>
-    <link>http://iptv-line.com:7899/live/Wednesday28/eX9CpKtjrH/76694.m3u8</link>
-    <thumbnail></thumbnail>
-    <fanart></fanart>
-</plugin>
-</item>
- 
- 
-<item>
-<plugin>
-    <title>Paw Patrol-24/7</title>
-    <link>http://iptv-line.com:7899/live/Wednesday28/eX9CpKtjrH/76639.m3u8</link>
-    <thumbnail></thumbnail>
-    <fanart></fanart>
-</plugin>
-</item>
- 
- 
- 
-<item>
-<plugin>
-    <title>24/7: Mickey Mouse Clubhouse</title>
-    <link>http://iptv-line.com:7899/live/Wednesday28/eX9CpKtjrH/76718.m3u8</link>
-    <thumbnail></thumbnail>
-    <fanart></fanart>
-</plugin>
-</item>
+
  
  
 <item>
@@ -349,6 +294,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </plugin>
 </item>
  
+ 
+ 
+ 
+ 
+ <item>
+<title>PLUTO TV comedy central</title>
+<inputstream>https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ca671f215a62078d2ec0abf/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=465&deviceId=5ca671f215a62078d2ec0abf&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false</inputstream>
+<thumbnail>https://images.pluto.tv/channels/5ca671f215a62078d2ec0abf/colorLogoPNG.png</thumbnail>
+<fanart></fanart>
+</item>
  
  
  
