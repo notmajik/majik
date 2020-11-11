@@ -1,0 +1,642 @@
+#EXTM3U
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg
+" group-title="USA,[COLOR=FFFF0000]==================================================================================================================[/COLOR]
+ 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://s-media-cache-ak0.pinimg.com/736x/db/ac/89/dbac896d3a324b56743a97b81ae921f1.jpg" group-title="USA",[COLOR=FFFF0000]------------ADULT SWIM---STREAMS---ADULT SWIM------STREAMS--------------------------------------------------------------------------[/COLOR]
+ 
+ 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/eQYzog8.png" group-title="24/7 ADULT SWIM",Aqua Teen Hunger Force
+https://adultswim-vodlive.cdn.turner.com/live/aqua-teen/stream.m3u8
+ 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/slawVDH.png" group-title="24/7 ADULT SWIM",Black Jesus
+http://adultswim-vodlive.cdn.turner.com/live/black-jesus/stream.m3u8
+ 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sLEHqIC.png" group-title="24/7 ADULT SWIM",Daily Live Action
+https://adultswim-vodlive.cdn.turner.com/live/daily_liveaction_1/stream.m3u8
+ 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/le0DGBd.png" group-title="24/7 ADULT SWIM",Dream Corp LLC
+http://adultswim-vodlive.cdn.turner.com/live/DREAM-CORP-LLC/stream.m3u8
+ 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/zlPbOI0.png" group-title="24/7 ADULT SWIM",Home Movies
+https://adultswim-vodlive.cdn.turner.com/live/test-2/stream.m3u8
+ 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sLEHqIC.png" group-title="24/7 ADULT SWIM",Live Stream
+https://adultswimtv.warnermediacdn.com/hls/live/2007031/livestream/master_Layer7.m3u8
+ 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/rYIysEl.png" group-title="24/7 ADULT SWIM",Metalocalypse
+http://adultswim-vodlive.cdn.turner.com/live/metalocalypse/stream.m3u8
+ 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/aShyuut.png" group-title="24/7 ADULT SWIM",Mr. Pickles
+http://adultswim-vodlive.cdn.turner.com/live/mr-pickles/stream.m3u8
+ 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://networkawesome.com/media/img/archive/thumbs/Off_the_Air.png" group-title="USA",adult swim off the air
+http://adultswim-vodlive.cdn.turner.com/off-the-air/stream.m3u8
+ 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/7bZnIJ0.png" group-title="24/7 ADULT SWIM",Rick and Morty
+http://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8
+ 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ZUg5vhn.png" group-title="24/7 ADULT SWIM",Robot Chicken
+https://adultswim-vodlive.cdn.turner.com/live/robot-chicken/stream.m3u8
+ 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/zSs1e5z.png" group-title="24/7 ADULT SWIM",Squidbillies
+https://adultswim-vodlive.cdn.turner.com/live/squidbillies/stream_7.m3u8
+ 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/K3nLFU9.png" group-title="24/7 ADULT SWIM",Superjail!
+https://adultswim-vodlive.cdn.turner.com/live/superjail/stream.m3u8
+ 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/GBlHt4r.png" group-title="24/7 ADULT SWIM",The Eric Andre Show
+http://adultswim-vodlive.cdn.turner.com/live/eric-andre/stream.m3u8
+ 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/kru210h.png" group-title="24/7 ADULT SWIM",The Venture Bros.
+https://adultswim-vodlive.cdn.turner.com/live/venture-bros/stream.m3u8
+ 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/9lsXliT.png" group-title="24/7 ADULT SWIM",Tim and Eric
+http://adultswim-vodlive.cdn.turner.com/tim-and-eric/stream.m3u8
+ 
+#EXTINF:-1 tvg-logo=”https://s-media-cache-ak0.pinimg.com/736x/db/ac/89/dbac896d3a324b56743a97b81ae921f1.jpg”,toonami adult swim stream 
+http://amd.cdn.turner.com/adultswim/big/streams/playlists/toonami.m3u8
+ 
+#EXTINF:-1 tvg-logo=”https://s-media-cache-ak0.pinimg.com/736x/db/ac/89/dbac896d3a324b56743a97b81ae921f1.jpg”,toonami adult swim stream 
+http://adultswimhls-i.akamaihd.net/hls/live/249295/adultswim_6/main/1/stream_Layer5.m3u8
+ 
+ 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/64uOrnR.png" group-title="24/7 ADULT SWIM",Williams Stream
+http://adultswim-vodlive.cdn.turner.com/live/williams-stream/stream_html5.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://static1.squarespace.com/static/56cf237bd51cd4e178f24e05/5759dea701dbae2a47bf9cc7/575ac783044262ac9d73353d/1507218278538/?format=300w" group-title="USA",************[COLOR=FFFF0000]==========[I][B]ADULT SWIM WEBSITE[/B][/I]============================================[/COLOR]
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",american dad Fight And Flight s11e02
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/americandad/2018/01/americandad_cc_1102_Digital_FightAndFlight_hkahiudoaodsgi/hls/americandad_cc_1102_Digital_FightAndFlight_hkahiudoaodsgi_stream_full.m3u8
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",american dad Enlightenent Of RagBaba s11e03
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/americandad/2018/01/americandad_cc_1103_Digital_EnlightenentOfRagBaba_hiauh8d7ga8ds7/hls/americandad_cc_1103_Digital_EnlightenentOfRagBaba_hiauh8d7ga8ds7_stream_full.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",american dad PortraitOfFrancineGenitals s11e04
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/americandad/2018/01/americandad_cc_1104_Digital_PortraitOfFrancineGenitals_hiayiga8sysfe/hls/americandad_cc_1104_Digital_PortraitOfFrancineGenitals_hiayiga8sysfe_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",american dad BahamaMama s11e05
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/americandad/2018/01/americandad_cc_1105_Digital_BahamaMama_hklhabuyga786dgia/hls/americandad_cc_1105_Digital_BahamaMama_hklhabuyga786dgia_stream_3.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",american dad RogersBaby s11e06
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/americandad/2018/01/americandad_cc_1106_Digital_RogersBaby_dadakdjkhagduya/hls/americandad_cc_1106_Digital_RogersBaby_dadakdjkhagduya_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",american dad Ninety North Zero West s11e07
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/americandad/2018/02/americandad_cc_1107_Digital_NinetyNorthZeroWest_vavadg8ap9shdhb87/hls/americandad_cc_1107_Digital_NinetyNorthZeroWest_vavadg8ap9shdhb87_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",american dad CampCampawanda s11e08
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/americandad/2018/02/americandad_cc_1108_Digital_CampCampawanda_bkuiby8a7odsd/hls/americandad_cc_1108_Digital_CampCampawanda_bkuiby8a7odsd_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",american dad Whole Slotta Love s11e09  
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/americandad/2018/01/americandad_cc_1109_Digital_WholeSlottaLove_babgduya8godyu/hls/americandad_cc_1109_Digital_WholeSlottaLove_babgduya8godyu_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",american dad A Nice Night For A Drive s11e10
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/americandad/2018/01/americandad_cc_1110_Digital_ANiceNightForADrive_bakjbdyb987oaysdb/hls/americandad_cc_1110_Digital_ANiceNightForADrive_bakjbdyb987oaysdb_stream_full.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",american dad Casino Normale s11e11
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/americandad/2018/01/americandad_cc_1111_Digital_CasinoNormale_buavby7ug0asr/hls/americandad_cc_1111_Digital_CasinoNormale_buavby7ug0asr_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",american dad Bazooka Steve S11E12 
+http://amd.cdn.turner.com/adultswim/episodes/us_geo/americandad/2018/02/americandad_cc_1112_Digital_BazookaSteve_bnakbdouyi8agoids/hls/americandad_cc_1112_Digital_BazookaSteve_bnakbdouyi8agoids_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",american dad Witches Of Langley Love s11e13
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/americandad/2018/01/americandad_cc_1113_Digital_WitchesOfLangley_bkabhdy8870shbdh/hls/americandad_cc_1113_Digital_WitchesOfLangley_bkabhdy8870shbdh_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",american dad Julia Rogerts s11e14
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/americandad/2018/01/americandad_cc_1114_Digital_JuliaRogerts_nbkmbh87080akjs/hls/americandad_cc_1114_Digital_JuliaRogerts_nbkmbh87080akjs_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",american dad StanSmithAsKeanuReeves
+https://amd.cdn.turner.com/adultswim/episodes/us_geo/americandad/2018/03/americandad_cc_1005_Digital_StanSmithAsKeanuReeves_iuaygh8d9o7ad/hls/americandad_cc_1005_Digital_StanSmithAsKeanuReeves_iuaygh8d9o7ad_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",aqua teen hunger force colon movie film for theaters
+http://amd.cdn.turner.com/adultswim/episodes/no_geo/athf/2017/04/athf_cmfft_cc_movie_zmbndy7w9wg5e6/hls/athf_cmfft_cc_movie_zmbndy7w9wg5e6_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="
+" group-title="USA",aqua teen hunger force seasaon 9 episode 3
+http://amd.cdn.turner.com/adultswim/episodes/no_geo/asykw/2017/04/asykw_cc_1103_Digital_ShirtHerpes/hls/asykw_cc_1103_Digital_ShirtHerpes_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="
+" group-title="USA",aqua teen hunger force seasaon 9 episode 4
+http://amd.cdn.turner.com/adultswim/episodes/no_geo/asykw/2017/04/asykw_cc_1105_Digital_RocketHorseJetChicken/hls/asykw_cc_1105_Digital_RocketHorseJetChicken_stream_full.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="
+" group-title="USA",aqua teen hunger force seasaon 9 episode 5
+http://amd.cdn.turner.com/adultswim/episodes/no_geo/asykw/2017/04/asykw_cc_1106_Digital_GraniteFamily/hls/asykw_cc_1106_Digital_GraniteFamily_stream_full.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="
+" group-title="USA",aqua teen hunger force seasaon 9 episode 7
+http://amd.cdn.turner.com/adultswim/episodes/no_geo/asykw/2017/04/asykw_cc_1107_Digital_Bookie/hls/asykw_cc_1107_Digital_Bookie_stream_full.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="
+" group-title="USA",aqua teen hunger force seasaon 9 episode 8
+http://amd.cdn.turner.com/adultswim/episodes/no_geo/asykw/2017/04/asykw_cc_1108_Digital_BuddyNugget/hls/asykw_cc_1108_Digital_BuddyNugget_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2016/04/12/MrPicklesS02_Header_b81a17.png" group-title="USA",mr.pickles s02e05
+http://amd.cdn.turner.com/adultswim/episodes/geo_us_la/mrpickles/2017/04/mrpickles_cc_207_Digital_Fish/hls/mrpickles_cc_207_Digital_Fish_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="
+" group-title="USA",robot chicken season 8 episode 5
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/robotchicken/2017/02/rc_cc_805_Digital_CakePillow/hls/rc_cc_805_Digital_CakePillow_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="
+" group-title="USA",robot chicken season 8 episode 6
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/robotchicken/2017/02/rc_cc_806_Digital_ZeroVegetables/hls/rc_cc_806_Digital_ZeroVegetables_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="
+" group-title="USA",robot chicken season 8 episode 7
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/robotchicken/2017/02/rc_cc_808_Digital_XmasUnited/hls/rc_cc_808_Digital_XmasUnited_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="
+" group-title="USA",robot chicken season 8 episode 8
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/robotchicken/2017/02/rc_cc_807_Digital_JoelHurwitz/hls/rc_cc_807_Digital_JoelHurwitz_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="
+" group-title="USA",robot chicken season 8 episode 9
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/robotchicken/2017/02/rc_cc_809_Digital_BlackOutWindowHeatstroke/hls/rc_cc_809_Digital_BlackOutWindowHeatstroke_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="
+" group-title="USA",robot chicken season 8 episode 10
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/robotchicken/2017/02/rc_cc_810_Digital_UnnamedOne/hls/rc_cc_810_Digital_UnnamedOne_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="
+" group-title="USA",robot chicken season 8 episode 11
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/robotchicken/2017/02/rc_cc_811_Digital_FridgeSmell/hls/rc_cc_811_Digital_FridgeSmell_stream_full.m3u8
+
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="
+" group-title="USA",delocated season 2 episode 12
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/delocated/2017/03/delocated_cc_212_Digital_Coma/hls/delocated_cc_212_Digital_Coma_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="
+" group-title="USA",china il season 3 episode 6
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/chinail/2017/03/chinail_cc_305_Digital_ParentsDay/hls/chinail_cc_305_Digital_ParentsDay_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="
+" group-title="USA",moral oral season 2 episode 5
+http://amd.cdn.turner.com/adultswim/episodes/no_geo/morelorel/2017/03/moralorel_cc_020_Digital_Offensiveness/hls/moralorel_cc_020_Digital_Offensiveness_stream_full.m3u8
+
+
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="
+" group-title="USA",loitersquad season 2 episode 2
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/loitersquad/2017/04/loitersquad_cc_202_Digital_WaitingToExhale/hls/loitersquad_cc_202_Digital_WaitingToExhale_stream_full.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="
+" group-title="USA",loitersquad season 2 episode 3
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/loitersquad/2017/04/loitersquad_cc_203_Digital_JasonsLyric/hls/loitersquad_cc_203_Digital_JasonsLyric_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="
+" group-title="USA",loitersquad season 2 episode 4
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/loitersquad/2017/04/loitersquad_cc_204_Digital_HowStellaGotHerGrooveBack/hls/loitersquad_cc_204_Digital_HowStellaGotHerGrooveBack_stream_full.m3u8
+
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/video/jailbot-20/superjail_ep207_010-02.jpg
+" group-title="USA",superjail season 2 episode 7
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/superjail/2017/05/superjail_cc_207_Digital_Jailbot2/hls/superjail_cc_207_Digital_Jailbot2_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/video/jailbot-20/superjail_ep207_010-02.jpg
+" group-title="USA",superjail season 3 episode 9
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/superjail/2017/05/superjail_cc_309_Digital_Oedipusmess/hls/superjail_cc_309_Digital_Oedipusmess_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/video/jailbot-20/superjail_ep207_010-02.jpg
+" group-title="USA",superjail season 3 episode 10
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/superjail/2017/05/superjail_cc_310_Digital_PlanetRadio/hls/superjail_cc_310_Digital_PlanetRadio_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/video/jailbot-20/superjail_ep207_010-02.jpg
+" group-title="USA",superjail season 4 episode 1
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/superjail/2017/05/superjail_cc_401_Digital_Superhell/hls/superjail_cc_401_Digital_Superhell_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/video/jailbot-20/superjail_ep207_010-02.jpg
+" group-title="USA",superjail season 4 episode 2
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/superjail/2017/05/superjail_cc_406_Digital_LastPack/hls/superjail_cc_406_Digital_LastPack_stream_full.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/video/jailbot-20/superjail_ep207_010-02.jpg
+" group-title="USA",superjail season 4 episode 3
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/superjail/2017/05/superjail_cc_404_JeanPaulBeefyAlice/hls/superjail_cc_404_JeanPaulBeefyAlice_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Dethklok2.jpg/250px-Dethklok2.jpg" group-title="USA",metalocalypse seaon 1 episode 1
+http://amd.cdn.turner.com/adultswim/episodes/no_geo/metalocalypse/2017/04/metalocalypse_cc_101_Digital_CurseOfDethKlok/hls/metalocalypse_cc_101_Digital_CurseOfDethKlok_stream_full.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Dethklok2.jpg/250px-Dethklok2.jpg" group-title="USA",metalocalypse seaon 1 episode 2
+http://amd.cdn.turner.com/adultswim/episodes/no_geo/metalocalypse/2017/04/metalocalypse_cc_102_Digital_Dethwater/hls/metalocalypse_cc_102_Digital_Dethwater_stream_full.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Dethklok2.jpg/250px-Dethklok2.jpg" group-title="USA",metalocalypse seaon 1 episode 3
+http://amd.cdn.turner.com/adultswim/episodes/no_geo/metalocalypse/2017/04/metalocalypse_cc_103_Digital_BirthdayFace/hls/metalocalypse_cc_103_Digital_BirthdayFace_stream_full.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Dethklok2.jpg/250px-Dethklok2.jpg" group-title="USA",metalocalypse seaon 1 episode 4
+http://amd.cdn.turner.com/adultswim/episodes/no_geo/metalocalypse/2017/04/metalocalypse_cc_104_Digital_Dethtroll/hls/metalocalypse_cc_104_Digital_Dethtroll_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Dethklok2.jpg/250px-Dethklok2.jpg" group-title="USA",metalocalypse seaon 1 episode 5
+http://amd.cdn.turner.com/adultswim/episodes/no_geo/metalocalypse/2017/04/metalocalypse_cc_105_Digital_MurderingOutsideTheBox/hls/metalocalypse_cc_105_Digital_MurderingOutsideTheBox_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Dethklok2.jpg/250px-Dethklok2.jpg" group-title="USA",metalocalypse seaon 4 episode 2
+http://amd.cdn.turner.com/adultswim/episodes/no_geo/metalocalypse/2017/04/metalocalypse_cc_402_Digital_Diversityklok/hls/metalocalypse_cc_402_Digital_Diversityklok_stream_full.m3u8
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Family_Guy_Logo.svg/1200px-Family_Guy_Logo.svg.png" group-title="USA",Family Guy season 13 episode 13
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/familyguy/2017/03/fg_cc_1313_Digital_UnderagePeter/hls/fg_cc_1313_Digital_UnderagePeter_stream_full.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Family_Guy_Logo.svg/1200px-Family_Guy_Logo.svg.png" group-title="USA",Family Guy season 13 episode 18
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/familyguy/2017/02/fg_cc_1318_Digital_RoadtoIndia/hls/fg_cc_1318_Digital_RoadtoIndia_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Family_Guy_Logo.svg/1200px-Family_Guy_Logo.svg.png" group-title="USA",Family Guy s14E02
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/familyguy/2017/04/fg_cc_1302_Digital_GuyRobot/hls/fg_cc_1302_Digital_GuyRobot_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Family_Guy_Logo.svg/1200px-Family_Guy_Logo.svg.png" group-title="USA",Family Guy S13E19 Peternormal Activity
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/familyguy/2017/04/fg_cc_1216_Digital_PeternormalActivity/hls/fg_cc_1216_Digital_PeternormalActivity_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Family_Guy_Logo.svg/1200px-Family_Guy_Logo.svg.png" group-title="USA",Family Guy season 14 episode 1
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/familyguy/2017/03/fg_cc_1301_Digital_CandyQuahogMarshmellow/hls/fg_cc_1301_Digital_CandyQuahogMarshmellow_stream_full.m3u8
+
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Family_Guy_Logo.svg/1200px-Family_Guy_Logo.svg.png" group-title="USA",Family Guy season 14 episode 5
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/familyguy/2017/03/fg_cc_1305_Digital_ShotInDark/hls/fg_cc_1305_Digital_ShotInDark_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Family_Guy_Logo.svg/1200px-Family_Guy_Logo.svg.png" group-title="USA",Family Guy season 13 episode 7
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/familyguy/2017/03/fg_cc_1307_Digital_BrokbackSwanson/hls/fg_cc_1307_Digital_BrokbackSwanson_stream_full.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Family_Guy_Logo.svg/1200px-Family_Guy_Logo.svg.png" group-title="USA",Family Guy season 14 episode 7
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/familyguy/2017/07/fg_cc_1417_Digital_DearlyDeported/hls/fg_cc_1417_Digital_DearlyDeported_stream_full.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Family_Guy_Logo.svg/1200px-Family_Guy_Logo.svg.png" group-title="USA",Family Guy season 15 episode 13
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/familyguy/2017/03/fg_cc_1410_Digital_FinerStrings/hls/fg_cc_1410_Digital_FinerStrings_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Family_Guy_Logo.svg/1200px-Family_Guy_Logo.svg.png" group-title="USA",Family Guy season 15 episode 14
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/familyguy/2017/03/fg_cc_1411_Digital_DatingGame/hls/fg_cc_1411_Digital_DatingGame_stream_full.m3u8
+
+
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Family_Guy_Logo.svg/1200px-Family_Guy_Logo.svg.png" group-title="USA",Family Guy season 15 episode 15
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/familyguy/2017/03/fg_cc_1412_Digital_CopHalfWit/hls/fg_cc_1412_Digital_CopHalfWit_stream_full.m3u8
+
+
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Family_Guy_Logo.svg/1200px-Family_Guy_Logo.svg.png" group-title="USA",Family Guy season 15 episode 6
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/familyguy/2017/02/fg_cc_1403_Digital_HotShots/hls/fg_cc_1403_Digital_HotShots_stream_full.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png
+" group-title="USA",bobsburgers S5E14 Lil Hard Dad
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2017/03/bobsburgers_cc_502_Digital_LilHardDad/hls/bobsburgers_cc_502_Digital_LilHardDad_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png
+" group-title="USA",bobsburgers S7E6 The QuickDucers
+http://amd.cdn.turner.com/adultswim/episodes/us_geo/bobsburgers/2018/02/bobsburgers_cc_616_Digital_TheQuickDucers_ukaghouwyf98q740/hls/bobsburgers_cc_616_Digital_TheQuickDucers_ukaghouwyf98q740_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png
+" group-title="USA",bobsburgers S5E03 Adventures in Chinchilla Sitting
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2017/03/bobsburgers_cc_503_Digital_AdventuresinChinchillaSitting/hls/bobsburgers_cc_503_Digital_AdventuresinChinchillaSitting_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png
+" group-title="USA",bobsburgers S6E01 Gene and Courtney Show
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2017/02/bobsburgers_cc_601_Digital_GeneCourtneyShow/hls/bobsburgers_cc_601_Digital_GeneCourtneyShow_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png
+" group-title="USA",bobsburgers S6E11 Flu-Ouise
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2018/02/bobsburgers_cc_611_Digital_FluOuise_nlkab7ty09ayse/hls/bobsburgers_cc_611_Digital_FluOuise_nlkab7ty09ayse_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png
+" group-title="USA",bobsburgers S7E22 Into The Mild
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2018/01/bobsburgers_cc_706_Digital_IntoTheMild_liah8oe3p0aux/hls/bobsburgers_cc_706_Digital_IntoTheMild_liah8oe3p0aux_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png
+" group-title="USA",bobs burgers s5e01 Gayles Tales
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2017/05/bobsburgers_cc_501_Digital_GaylesTales/hls/bobsburgers_cc_501_Digital_GaylesTales_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png
+" group-title="USA",bobs burgers s5e08 Oeder Games
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2017/03/bobsburgers_cc_508_Digital_OederGames/hls/bobsburgers_cc_508_Digital_OederGames_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png
+" group-title="USA",bobs burgers s5e10 Sliding Bobs
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2017/03/bobsburgers_cc_510_Digital_SlidingBobs/hls/bobsburgers_cc_510_Digital_SlidingBobs_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png" group-title="USA",Bobs burgers season 5 s5e11 LandShip
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2017/02/bobsburgers_cc_511_Digital_LandShip/hls/bobsburgers_cc_511_Digital_LandShip_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png
+" group-title="USA",bobsburgers S4E18 Father of Bob
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2017/02/bobsburgers_cc_418_Digital_FatherofBob/hls/bobsburgers_cc_418_Digital_FatherofBob_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png
+" group-title="USA",bobsburgers S5E21 Digital Glued
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2017/02/bobsburger_cc_521_Digital_Glued/hls/bobsburger_cc_521_Digital_Glued_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png
+" group-title="USA",bobsburgers s5e12 Cook Steve Gayle Lover
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2017/02/bobsburgers_cc_512_Digital_CookSteveGayleLover/hls/bobsburgers_cc_512_Digital_CookSteveGayleLover_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png" group-title="USA",Bobs burgers S5E2 tina and the real ghost
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2017/04/bobsburgers_cc_413_Digital_TinaAndRealGhost/hls/bobsburgers_cc_413_Digital_TinaAndRealGhost_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png" group-title="USA",Bobs burgers season 5 episode 16
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2017/03/bobsburgers_cc_516_Digital_SacredCouch/hls/bobsburgers_cc_516_Digital_SacredCouch_stream_full.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png
+" group-title="USA",bobs burgers s5e17
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2017/04/bobsburgers_cc_517_Digital_GayleBobSled_rtfvgbhj87ag9/hls/bobsburgers_cc_517_Digital_GayleBobSled_rtfvgbhj87ag9_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png
+" group-title="USA",bobs burgers s5e19
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2017/03/bobsburgers_cc_519_Digital_LiceThingsAreLice/hls/bobsburgers_cc_519_Digital_LiceThingsAreLice_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png
+" group-title="USA",bobsburgers s6e07
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2017/10/bobsburgers_cc_607_Digital_SeaMeNow_iuy8763jgvyi/hls/bobsburgers_cc_607_Digital_SeaMeNow_iuy8763jgvyi_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png
+" group-title="USA",bobsburgers s6e09
+https://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2017/03/bobsburgers_cc_516_Digital_SacredCouch/hls/bobsburgers_cc_516_Digital_SacredCouch_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png
+" group-title="USA",bobsburgers s6e10
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2017/10/bobsburgers_cc_610_Digital_LargeBrotherWheresFartThou_liuh87q03p84h/hls/bobsburgers_cc_610_Digital_LargeBrotherWheresFartThou_liuh87q03p84h_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png" group-title="USA",Bobs burgers season 6 episode 12
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2017/03/bobsburgers_cc_522_Digital_WgtheHog/hls/bobsburgers_cc_522_Digital_WgtheHog_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png
+" group-title="USA",bobsburgers s6e15
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2017/03/bobsburgers_cc_603_Digital_ProTikiConTiki/hls/bobsburgers_cc_603_Digital_ProTikiConTiki_stream_full.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png" group-title="USA",Bobs burgers season 6 episode 19
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2017/11/bobsburgers_cc_619_Digital_AFewGurtMen_nliabnub6970oa/hls/bobsburgers_cc_619_Digital_AFewGurtMen_nliabnub6970oa_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png" group-title="USA",Bobs burgers season 7 episode 04
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2018/01/bobsburgers_cc_704_Digital_MomsLiesVideotape_nliauh897ew9oyaae/hls/bobsburgers_cc_704_Digital_MomsLiesVideotape_nliauh897ew9oyaae_stream_full.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png" group-title="USA",Bobs burgers season 7 episode 13
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2017/11/bobsburgers_cc_614_Digital_GrandMamaPestHotel_iuanui876y39oh0psh/hls/bobsburgers_cc_614_Digital_GrandMamaPestHotel_iuanui876y39oh0psh_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/img/2014/05/21/BobsBurgers.png" group-title="USA",Bobs burgers season 7 episode 14
+https://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/bobsburgers/2018/01/bobsburgers_cc_702_Digital_LaserInth_lakn87oailsfrara/hls/bobsburgers_cc_702_Digital_LaserInth_lakn87oailsfrara_stream_full.m3u8
+
+
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/video/jimmy-cliff-theme-song-cover/squidbillies_BTS_907_JimmyCliff.jpg" group-title="USA",Squidbillies season 10 episode 1
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/squidbillies/2017/06/squidbillies_cc_902_Digital_LipstickonaSquid/hls/squidbillies_cc_902_Digital_LipstickonaSquid_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/video/jimmy-cliff-theme-song-cover/squidbillies_BTS_907_JimmyCliff.jpg" group-title="USA",Squidbillies season 10 episode 2
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/squidbillies/2017/06/squidbillies_cc_905_Digital_SouthernPrideandPrejudice/hls/squidbillies_cc_905_Digital_SouthernPrideandPrejudice_stream_full.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/video/jimmy-cliff-theme-song-cover/squidbillies_BTS_907_JimmyCliff.jpg" group-title="USA",Squidbillies season 10 episode 3
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/squidbillies/2017/06/squidbillies_cc_903_Digital_TrackwoodRaceist/hls/squidbillies_cc_903_Digital_TrackwoodRaceist_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/video/jimmy-cliff-theme-song-cover/squidbillies_BTS_907_JimmyCliff.jpg" group-title="USA",Squidbillies season 10 episode 4
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/squidbillies/2017/06/squidbillies_cc_901_Digital_Peep/hls/squidbillies_cc_901_Digital_Peep_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/video/jimmy-cliff-theme-song-cover/squidbillies_BTS_907_JimmyCliff.jpg" group-title="USA",Squidbillies season 10 episode 5
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/squidbillies/2017/06/squidbillies_cc_904_Digital_Vicki/hls/squidbillies_cc_904_Digital_Vicki_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/video/jimmy-cliff-theme-song-cover/squidbillies_BTS_907_JimmyCliff.jpg" group-title="USA",Squidbillies season 10 episode 6
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/squidbillies/2017/06/squidbillies_cc_909_Digital_Cephaloectomy/hls/squidbillies_cc_909_Digital_Cephaloectomy_stream_full.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/video/jimmy-cliff-theme-song-cover/squidbillies_BTS_907_JimmyCliff.jpg" group-title="USA",Squidbillies season 10 episode 7
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/squidbillies/2017/06/squidbillies_cc_907_Digital_GreenerPastor/hls/squidbillies_cc_907_Digital_GreenerPastor_stream_full.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/video/jimmy-cliff-theme-song-cover/squidbillies_BTS_907_JimmyCliff.jpg" group-title="USA",Squidbillies season 10 episode 8
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/squidbillies/2017/06/squidbillies_cc_906_Digital_SquashBGosh/hls/squidbillies_cc_906_Digital_SquashBGosh_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/video/jimmy-cliff-theme-song-cover/squidbillies_BTS_907_JimmyCliff.jpg" group-title="USA",Squidbillies season 11 episode 1
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/squidbillies/2017/10/squidbillies_cc_911_Digital_DoveInAnIronCage_jiluhalgh7869g08a/hls/squidbillies_cc_911_Digital_DoveInAnIronCage_jiluhalgh7869g08a_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/video/jimmy-cliff-theme-song-cover/squidbillies_BTS_907_JimmyCliff.jpg" group-title="USA",Squidbillies season 11 episode 2
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/squidbillies/2017/10/squidbillies_cc_913_Digital_GuzzleBumpkin_87hubtv76ajw9792a/hls/squidbillies_cc_913_Digital_GuzzleBumpkin_87hubtv76ajw9792a_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/video/jimmy-cliff-theme-song-cover/squidbillies_BTS_907_JimmyCliff.jpg" group-title="USA",Squidbillies season 11 episode 3
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/squidbillies/2017/10/squidbillies_cc_915_Digital_JacksonvilleJackass_iouhan873r87s/hls/squidbillies_cc_915_Digital_JacksonvilleJackass_iouhan873r87s_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/video/jimmy-cliff-theme-song-cover/squidbillies_BTS_907_JimmyCliff.jpg" group-title="USA",Squidbillies season 11 episode 4
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/squidbillies/2017/11/squidbillies_cc_910_Digital_KnightsOfNobleOrder_uaybhy76539820sa/hls/squidbillies_cc_910_Digital_KnightsOfNobleOrder_uaybhy76539820sa_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/video/jimmy-cliff-theme-song-cover/squidbillies_BTS_907_JimmyCliff.jpg" group-title="USA",Squidbillies season 11 episode 5
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/squidbillies/2017/11/squidbillies_cc_914_Digital_BalladOfLatrineMarine_xbyut8648ukljsbd/hls/squidbillies_cc_914_Digital_BalladOfLatrineMarine_xbyut8648ukljsbd_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/video/jimmy-cliff-theme-song-cover/squidbillies_BTS_907_JimmyCliff.jpg" group-title="USA",Squidbillies season 11 episode 6
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/squidbillies/2017/12/squidbillies_cc_916_Digital_DebasedBall_ajksdhfuyaowbajh/hls/squidbillies_cc_916_Digital_DebasedBall_ajksdhfuyaowbajh_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.cdn.turner.com/adultswim/big/video/jimmy-cliff-theme-song-cover/squidbillies_BTS_907_JimmyCliff.jpg" group-title="USA",Squidbillies season 11 episode 7
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/squidbillies/2017/11/squidbillies_cc_917_Digital_TortugadeMentiras_ioawghe987jnlsuh0o/hls/squidbillies_cc_917_Digital_TortugadeMentiras_ioawghe987jnlsuh0o_stream_full.m3u8
+
+
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",BALLMASTRZ:9009 S1 E1 A Shooting Star Named Gaz Digzy Falls Fast and Hard
+https://amd.cdn.turner.com/adultswim/episodes/us_geo/ballmastrz9009/2018/04/ballmastrz9009_cc_101_Digital_ShootingStarNamedGazDigzy_bikab7608o7heahjs/hls/ballmastrz9009_cc_101_Digital_ShootingStarNamedGazDigzy_bikab7608o7heahjs_stream_full.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",BALLMASTRZ:9009 S1 E2 With the Burning Spirit of Teamwork in Her Heart
+https://amd.cdn.turner.com/adultswim/episodes/us_geo/ballmastrz9009/2018/04/ballmastrz9009_cc_102_Digital_WithBurningSpiritOfTeamwork_buayg8908sdlld/hls/ballmastrz9009_cc_102_Digital_WithBurningSpiritOfTeamwork_buayg8908sdlld_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",BALLMASTRZ:9009 S1 E3 Very Special Balls
+https://amd.cdn.turner.com/adultswim/episodes/us_geo/ballmastrz9009/2018/04/ballmastrz9009_cc_107_Digital_VerySpecialBalls_vuyv87o8aisbkjhwbe/hls/ballmastrz9009_cc_107_Digital_VerySpecialBalls_vuyv87o8aisbkjhwbe_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",BALLMASTRZ:9009 S1 E4 To Catch A Princess
+https://amd.cdn.turner.com/adultswim/episodes/us_geo/ballmastrz9009/2018/04/ballmastrz9009_cc_106_Digital_ToCatchAPrincess_buyavg8yibhkjbaiao/hls/ballmastrz9009_cc_106_Digital_ToCatchAPrincess_buyavg8yibhkjbaiao_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",BALLMASTRZ:9009 S1 E5 BREATHE DEEP TO WIN! TEAMWORK CUTS THROUGH THE FOUL ODOR OF OBSESSION!
+https://amd.cdn.turner.com/adultswim/episodes/us_geo/ballmastrz9009/2018/03/ballmastrz9009_cc_104_Digital_BreatheDeepToWin_ctfy87iaydbfbo/hls/ballmastrz9009_cc_104_Digital_BreatheDeepToWin_ctfy87iaydbfbo_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",BALLMASTRZ:9009 S1 E6 HONOR! MONEY! SWORDS! DONGS! ULTIMATE GAZ BOOM BOOM ROOKIE CARD BATTLE BEGIN! FIGHT!
+https://amd.cdn.turner.com/adultswim/episodes/us_geo/ballmastrz9009/2018/04/ballmastrz9009_cc_105_Digital_HonorMoneySwordsDongs_tygg786ausdyvkaye/hls/ballmastrz9009_cc_105_Digital_HonorMoneySwordsDongs_tygg786ausdyvkaye_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",BALLMASTRZ:9009 S1 E7 BALLMASTRZ: 9009 HONOR! MONEY! SWORDS! DONGS! ULTIMATE GAZ BOOM BOOM ROOKIE CARD BATTLE BEGIN! FIGHT!
+https://amd.cdn.turner.com/adultswim/episodes/us_geo/ballmastrz9009/2018/04/ballmastrz9009_cc_105_Digital_HonorMoneySwordsDongs_tygg786ausdyvkaye/hls/ballmastrz9009_cc_105_Digital_HonorMoneySwordsDongs_tygg786ausdyvkaye_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",BALLMASTRZ:9009 S1 E8 9009 HUNGER CRAMPS ON THE PLAYING FIELD OF FRIENDSHIP
+https://amd.cdn.turner.com/adultswim/episodes/us_geo/ballmastrz9009/2018/05/ballmastrz9009_cc_108_Digital_HungerCramps_nlaih8a7hw0phhs/hls/ballmastrz9009_cc_108_Digital_HungerCramps_nlaih8a7hw0phhs_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",BALLMASTRZ:9009 S1 E9 CHASTE WING OF THE COLD TURKEY VS FLAMING FIST OF INDULGENCE!
+https://amd.cdn.turner.com/adultswim/episodes/us_geo/ballmastrz9009/2018/04/ballmastrz9009_cc_109_Digital_ChastWingOfColdTurkey_buiayb9d87yfaghp0sd/hls/ballmastrz9009_cc_109_Digital_ChastWingOfColdTurkey_buiayb9d87yfaghp0sd_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="USA",BALLMASTRZ:9009 S1 E10 STRENGTH THROUGH SONG; BROTHERHOOD THROUGH BLOOD; REDEMPTION THROUGH RAGE. SING, FALLEN ANGEL!
+https://amd.cdn.turner.com/adultswim/episodes/us_geo/ballmastrz9009/2018/04/ballmastrz9009_cc_110_Digital_StrengthThroughSong_buayigw97e6ag0w/hls/ballmastrz9009_cc_110_Digital_StrengthThroughSong_buayigw97e6ag0w_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://cdn2us.denofgeek.com/sites/denofgeekus/files/2017/07/rick-and-morty-portal.jpg" group-title="USA",Rick And Morty S3 E1 RickshankRickdemption
+http://amd.cdn.turner.com/adultswim/episodes/geo_us_la/rickandmorty/2017/07/rickandmorty_cc_301Long_Digital_RickshankRickdemption_kjah76g876a7hoahfai87/hls/rickandmorty_cc_301Long_Digital_RickshankRickdemption_kjah76g876a7hoahfai87_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://cdn2us.denofgeek.com/sites/denofgeekus/files/2017/07/rick-and-morty-portal.jpg" group-title="USA",Rick And Morty S3 E2 RickmancingTheStone
+http://amd.cdn.turner.com/adultswim/episodes/geo_us_la/rickandmorty/2017/08/rickandmorty_cc_302_Digital_RickmancingTheStone_uayw7604ps98hf9/hls/rickandmorty_cc_302_Digital_RickmancingTheStone_uayw7604ps98hf9_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://cdn2us.denofgeek.com/sites/denofgeekus/files/2017/07/rick-and-morty-portal.jpg" group-title="USA",Rick And Morty S3 E3 PickleRick
+http://amd.cdn.turner.com/adultswim/episodes/geo_us_la/rickandmorty/2017/08/rickandmorty_cc_303_Digital_PickleRick_akjhw0727517bad/hls/rickandmorty_cc_303_Digital_PickleRick_akjhw0727517bad_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://cdn2us.denofgeek.com/sites/denofgeekus/files/2017/07/rick-and-morty-portal.jpg" group-title="USA",Rick And Morty S3 E4 Vindicators 3
+http://amd.cdn.turner.com/adultswim/episodes/geo_us_la/rickandmorty/2017/08/rickandmorty_cc_304_Digital_Vindicators3_lkah8y7yt467jhlskhb/hls/rickandmorty_cc_304_Digital_Vindicators3_lkah8y7yt467jhlskhb_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://cdn2us.denofgeek.com/sites/denofgeekus/files/2017/07/rick-and-morty-portal.jpg" group-title="USA",Rick And Morty S3 E5 The Whirly Dirly Conspiracy
+http://amd.cdn.turner.com/adultswim/episodes/geo_us_la/rickandmorty/2017/08/rickandmorty_cc_305_Digital_WhirlyDirlyConspiracy_mnbxgiaytw99aaq/hls/rickandmorty_cc_305_Digital_WhirlyDirlyConspiracy_mnbxgiaytw99aaq_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://cdn2us.denofgeek.com/sites/denofgeekus/files/2017/07/rick-and-morty-portal.jpg" group-title="USA",Rick And Morty S3 E6 Rest and Ricklaxation
+http://amd.cdn.turner.com/adultswim/episodes/geo_us_la/rickandmorty/2017/08/rickandmorty_cc_306_Digital_RestandRicklaxation_kjbit497q64posaljnbjfgv/hls/rickandmorty_cc_306_Digital_RestandRicklaxation_kjbit497q64posaljnbjfgv_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://cdn2us.denofgeek.com/sites/denofgeekus/files/2017/07/rick-and-morty-portal.jpg" group-title="USA",Rick And Morty S3 E7 The Ricklantis Mixup
+http://amd.cdn.turner.com/adultswim/episodes/geo_us_la/rickandmorty/2017/09/rickandmorty_cc_307_Digital_RicklantisMixup_a4jljopijubh07s/hls/rickandmorty_cc_307_Digital_RicklantisMixup_a4jljopijubh07s_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://cdn2us.denofgeek.com/sites/denofgeekus/files/2017/07/rick-and-morty-portal.jpg" group-title="USA",Rick And Morty S3 E8 ABC's Of Beth
+http://amd.cdn.turner.com/adultswim/episodes/geo_us_la/rickandmorty/2017/09/rickandmorty_cc_308_Digital_ABCsOfBeth_uy7676qt784bzjvu/hls/rickandmorty_cc_308_Digital_ABCsOfBeth_uy7676qt784bzjvu_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://cdn2us.denofgeek.com/sites/denofgeekus/files/2017/07/rick-and-morty-portal.jpg" group-title="USA",Rick And Morty S3 E9 Morty's Mind Blowers
+http://amd.cdn.turner.com/adultswim/episodes/geo_us_la/rickandmorty/2017/10/rickandmorty_cc_309_Digital_MortysMindBlowers_auifbha764q96gghbs/hls/rickandmorty_cc_309_Digital_MortysMindBlowers_auifbha764q96gghbs_stream_full.m3u8
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://cdn2us.denofgeek.com/sites/denofgeekus/files/2017/07/rick-and-morty-portal.jpg" group-title="USA",Rick And Morty S3 E10 The Rickchurian Mortydate
+http://amd.cdn.turner.com/adultswim/episodes/geo_us_la/rickandmorty/2017/09/rickandmorty_cc_310_Digital_RickchurianMortydate_iubh87987qkhbhsj/hls/rickandmorty_cc_310_Digital_RickchurianMortydate_iubh87987qkhbhsj_stream_full.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://cdn2us.denofgeek.com/sites/denofgeekus/files/2017/07/rick-and-morty-portal.jpg" group-title="USA",Rick And Morty S4 E1
+https://amd.cdn.turner.com/adultswim/episodes/us_geo/rickandmorty/2019/12/rickandmorty_401_Digital_ClawAndHoarder_hoaiho87gyuxbh/hls/rickandmorty_401_Digital_ClawAndHoarder_hoaiho87gyuxbh_stream_10.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://cdn2us.denofgeek.com/sites/denofgeekus/files/2017/07/rick-and-morty-portal.jpg" group-title="USA",Rick And Morty S4 E2
+https://amd.cdn.turner.com/adultswim/episodes/us_geo/rickandmorty/2019/11/rickandmorty_402_Digital_OldManAndTheSeat_8aiuykhjb587tgx/hls/rickandmorty_402_Digital_OldManAndTheSeat_8aiuykhjb587tgx_stream_10.m3u8                                          
+
+
+                                            
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://cdn2us.denofgeek.com/sites/denofgeekus/files/2017/07/rick-and-morty-portal.jpg" group-title="USA",Rick And Morty S2 E09
+http://amd.cdn.turner.com/adultswim/episodes/no_uk_geo/rickandmorty/2015/10/rickandmorty_ep209_005_lo9o0o9ian890be521vs/hls/rickandmorty_ep209_005_lo9o0o9ian890be521vs_stream_tv.m3u8
+
