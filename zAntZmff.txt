@@ -92,7 +92,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
  
  
 
- 
+  
+<item>
+<plugin>
+    <title>nick</title>
+    <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://f1.ustvgo.org/Nickelodeon/myStream/playlist.m3u8%26referer=https://ustv247.tv/nickelodeon/</link>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+</plugin>
+</item>
  
  
  
