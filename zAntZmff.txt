@@ -56,156 +56,59 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
+
+
  
-<item>
-<title>https://www.brettygood.com/</title>
+
+ <item>
+<title>https://www.vuit.com/live/12738/wifr</title>
 <link>$doregex[getM3U8]</link>
 <regex>
 <name>getM3U8</name>
 <expres>"url":"(.*?)"</expres>
-<page>https://www.brettygood.com</page>
-<referer>https://www.brettygood.com</referer>
+<page>https://www.vuit.com/live/12738/wifr</page>
+<referer>https://www.vuit.com/live/12738/wifr</referer>
 <agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent>
 <cookieJar></cookieJar>
 </regex>
 </item>
 
 
- <item>
-<plugin>
-    <title>https://www.brettygood.com/</title>
-    <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://www.brettygood.com%26referer=https://www.brettygood.com</link>
-    <thumbnail></thumbnail>
-    <fanart></fanart>
-</plugin>
-</item>
 
 
 
- <item>
-<plugin>
-    <title>https://www.suptv.org/</title>
-    <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://www.suptv.org%26referer=https://www.suptv.org</link>
-    <thumbnail></thumbnail>
-    <fanart></fanart>
-</plugin>
-</item>
-
-
-
-
-<item>
-<title>https://www.suptv.org</title>
-<link>$doregex[getM3U8]</link>
-<regex>
-<name>getM3U8</name>
-<expres>"url":"(.*?)"</expres>
-<page>https://www.suptv.org</page>
-<referer>https://www.suptv.org</referer>
-<agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-</item>
-
-
-<item>
-<title>https://ustvgo.tv/boomerang/</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[getM3U8]|User-Agent=iPad&amp;streamtype=HLSRETRY</link>
-<regex>
-<name>getM3U8</name>
-<expres>value="(http.*?)"</expres>
-<page>https://ustvgo.tv/boomerang/</page>
-</regex>
-</item>
- 
-
-
- 
-<item>
-<title>[B][COLOR lime]Cartoon network[/COLOR][/B]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;Buffer=20971520&amp;url=http://greenstreamtv.xyz:25461/brentcarmean/bc4667gs/183</link>
-<thumbnail></thumbnail>
-<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
-</item>
-
-
-
-
-
- <item> 
-<title>[B][COLOR lime]==DAILY====[COLOR blue]==UK==AND==USA====[COLOR lime]====IPTV==[/COLOR][/B]</title>             
-<link>$doregex[makelist2]</link>
-<regex>
-<name>makelist2</name>
-<thumbnail>https://3.bp.blogspot.com/-Rt7PuVBDTXs/Wj1hDDEV4QI/AAAAAAAAAdk/P2T8g9z6-WgQ4hQBI7cIfXQDGl-xNrmJgCLcBGAs/s1700/premium..%2Blist-iptv.com.png</thumbnail>
-<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
-<listrepeat><![CDATA[
-<title>[B][COLOR aqua][makelist2.param2][/COLOR][/B]</title> 
-<link>plugin://plugin.video.f4mTester/?url=[makelist2.param3]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist2.param2]</link>
-<thumbnail>https://3.bp.blogspot.com/-Rt7PuVBDTXs/Wj1hDDEV4QI/AAAAAAAAAdk/P2T8g9z6-WgQ4hQBI7cIfXQDGl-xNrmJgCLcBGAs/s1700/premium..%2Blist-iptv.com.png</thumbnail>
-<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>    
-]]></listrepeat>
-<expres><![CDATA[#EXTINF:(.*),(.*)\s(http.*://(.*)/live.)]]></expres>
-<page><![CDATA[http://beastiptv.tv:8080/get.php?username=Reyr07&password=Glendat11&type=m3u]]></page>
-<cookieJar></cookieJar>
-</regex>   
-</item>  
-
-
-
-
-
- 
- 
-<item>
-<title>[B][COLOR lime]==========[COLOR blue]=====tv shows=1==[COLOR lime]==============[/COLOR][/B]</title>
-<link>ignor</link>
-<externallink>https://tv4.live/api/list/tasmiac7@jvlicenses.com/943421/m3u8/tvshows/1</externallink>
-<thumbnail></thumbnail>
-<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
-</item>
- 
- 
-<item>
-<title>[B][COLOR lime]==========[COLOR blue]=====tv shows=2==[COLOR lime]==============[/COLOR][/B]</title>
-<link>ignor</link>
-<externallink>https://tv4.live/api/list/haluvejy@inboxbear.com/271871/m3u8/tvshows/2</externallink>
-<thumbnail></thumbnail>
-<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
-</item>
- 
-<item>
-<title>[B][COLOR lime]==========[COLOR blue]=====tv shows=3==[COLOR lime]==============[/COLOR][/B]</title>
-<link>ignor</link>
-<externallink>https://tv4.live/api/list/haluvejy@inboxbear.com/271871/m3u8/tvshows/3</externallink>
-<thumbnail></thumbnail>
-<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
-</item>
- 
- 
- 
-<item>
-<title>movies</title>
-<link>ignor</link>
-<externallink>https://tv4.live/api/list/haluvejy@inboxbear.com/271871/m3u8/movies</externallink>
-<thumbnail></thumbnail>
-<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
-</item>
- 
-
-
-  
 <item>
 <plugin>
-    <title>fox news rockford</title>
-    <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://www.vuit.com/live/12738/wifr%26referer=https://www.vuit.com/live/12738/wifr</link>
+    <title>toonami aftermath est</title>
+    <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://api.toonamiaftermath.com/streamUrl?channelName=est&timezoneOffset=4&useHttps=true%26referer=https://api.toonamiaftermath.com/streamUrl?channelName=est&timezoneOffset=4&useHttps=true</link>
     <thumbnail></thumbnail>
     <fanart></fanart>
 </plugin>
 </item>
  
  
-
+ 
+ 
+ 
+<item>
+<plugin>
+    <title>toonami aftermath movies</title>
+    <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://api.toonamiaftermath.com/streamUrl?channelName=movies&timezoneOffset=4&useHttps=true%26referer=https://api.toonamiaftermath.com/streamUrl?channelName=movies&timezoneOffset=4&useHttps=true</link>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+</plugin>
+</item>
+ 
+ 
+<item>
+<plugin>
+    <title>toonami aftermath radio</title>
+    <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://api.toonamiaftermath.com/streamUrl?channelName=radio&timezoneOffset=4&useHttps=true%26referer=https://api.toonamiaftermath.com/streamUrl?channelName=radio&timezoneOffset=4&useHttps=true</link>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+</plugin>
+</item>
+ 
  
 
 
@@ -425,39 +328,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
  
  
-<item>
-<plugin>
-    <title>toonami aftermath est</title>
-    <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://api.toonamiaftermath.com/streamUrl?channelName=est&timezoneOffset=4&useHttps=true%26referer=https://api.toonamiaftermath.com/streamUrl?channelName=est&timezoneOffset=4&useHttps=true</link>
-    <thumbnail></thumbnail>
-    <fanart></fanart>
-</plugin>
-</item>
- 
- 
- 
- 
- 
-<item>
-<plugin>
-    <title>toonami aftermath movies</title>
-    <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://api.toonamiaftermath.com/streamUrl?channelName=movies&timezoneOffset=4&useHttps=true%26referer=https://api.toonamiaftermath.com/streamUrl?channelName=movies&timezoneOffset=4&useHttps=true</link>
-    <thumbnail></thumbnail>
-    <fanart></fanart>
-</plugin>
-</item>
- 
- 
-<item>
-<plugin>
-    <title>toonami aftermath radio</title>
-    <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://api.toonamiaftermath.com/streamUrl?channelName=radio&timezoneOffset=4&useHttps=true%26referer=https://api.toonamiaftermath.com/streamUrl?channelName=radio&timezoneOffset=4&useHttps=true</link>
-    <thumbnail></thumbnail>
-    <fanart></fanart>
-</plugin>
-</item>
- 
- 
+
  
  
  
@@ -4379,12 +4250,61 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 
 
 
+ <item> 
+<title>[B][COLOR lime]==DAILY====[COLOR blue]==UK==AND==USA====[COLOR lime]====IPTV==[/COLOR][/B]</title>             
+<link>$doregex[makelist2]</link>
+<regex>
+<name>makelist2</name>
+<thumbnail>https://3.bp.blogspot.com/-Rt7PuVBDTXs/Wj1hDDEV4QI/AAAAAAAAAdk/P2T8g9z6-WgQ4hQBI7cIfXQDGl-xNrmJgCLcBGAs/s1700/premium..%2Blist-iptv.com.png</thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
+<listrepeat><![CDATA[
+<title>[B][COLOR aqua][makelist2.param2][/COLOR][/B]</title> 
+<link>plugin://plugin.video.f4mTester/?url=[makelist2.param3]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist2.param2]</link>
+<thumbnail>https://3.bp.blogspot.com/-Rt7PuVBDTXs/Wj1hDDEV4QI/AAAAAAAAAdk/P2T8g9z6-WgQ4hQBI7cIfXQDGl-xNrmJgCLcBGAs/s1700/premium..%2Blist-iptv.com.png</thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>    
+]]></listrepeat>
+<expres><![CDATA[#EXTINF:(.*),(.*)\s(http.*://(.*)/live.)]]></expres>
+<page><![CDATA[http://beastiptv.tv:8080/get.php?username=Reyr07&password=Glendat11&type=m3u]]></page>
+<cookieJar></cookieJar>
+</regex>   
+</item>  
 
 
+<item>
+<title>[B][COLOR lime]==========[COLOR blue]=====tv shows=1==[COLOR lime]==============[/COLOR][/B]</title>
+<link>ignor</link>
+<externallink>https://tv4.live/api/list/tasmiac7@jvlicenses.com/943421/m3u8/tvshows/1</externallink>
+<thumbnail></thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
+</item>
+ 
+ 
+<item>
+<title>[B][COLOR lime]==========[COLOR blue]=====tv shows=2==[COLOR lime]==============[/COLOR][/B]</title>
+<link>ignor</link>
+<externallink>https://tv4.live/api/list/haluvejy@inboxbear.com/271871/m3u8/tvshows/2</externallink>
+<thumbnail></thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
+</item>
+ 
+<item>
+<title>[B][COLOR lime]==========[COLOR blue]=====tv shows=3==[COLOR lime]==============[/COLOR][/B]</title>
+<link>ignor</link>
+<externallink>https://tv4.live/api/list/haluvejy@inboxbear.com/271871/m3u8/tvshows/3</externallink>
+<thumbnail></thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
+</item>
+ 
 
-
-
-
+ 
+<item>
+<title>movies</title>
+<link>ignor</link>
+<externallink>https://tv4.live/api/list/haluvejy@inboxbear.com/271871/m3u8/movies</externallink>
+<thumbnail></thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
+</item>
+ 
 
 
 
