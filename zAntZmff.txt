@@ -69,14 +69,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
+
+
  
 <item>
-<title>https://gist.githubusercontent.com/Gelson157/7254c894993fd90e740b453dcb3a064d/raw/9318755390acb958429b2c8928f545b2f1f4a6c3/TV%2520F4M</title>
-<link>ignor</link>
-<externallink>https://gist.githubusercontent.com/Gelson157/7254c894993fd90e740b453dcb3a064d/raw/9318755390acb958429b2c8928f545b2f1f4a6c3/TV%2520F4M</externallink>
+<title>[B][COLOR lime]comedy central[/COLOR][/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;Buffer=20971520&amp;url=http://beastiptv.tv:25461/live/Reyr07/Glendat11/1405.ts</link>
 <thumbnail></thumbnail>
 <fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
 </item>
+
 
 
 
