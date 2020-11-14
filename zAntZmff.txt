@@ -55,26 +55,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<item>
-<title>[COLOR lightblue]https://ustvgo.tv/boomerang/[/COLOR]</title>
-<link>https://f1.ustvgo.org/Boomerang/myStream/playlist.m3u8?wmsAuthSign=$doregex[boomerang]</link>
-<regex>
-<name>boomerang</name>
-<expres>wmsAuthSign=(.*)</expres>
-<page>https://ustvgo.tv/boomerang/</page>
-<referer>https://ustvgo.tv/boomerang/</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 <item>
-<title>https://www.stream4free.live/family-guy</title>
+<title>https://ustvgo.tv/boomerang/</title>
 <link>plugin://plugin.video.f4mTester/?url=$doregex[getM3U8]|User-Agent=iPad&amp;streamtype=HLSRETRY</link>
 <regex>
 <name>getM3U8</name>
 <expres>value="(http.*?)"</expres>
-<page>https://www.stream4free.live/family-guy</page>
+<page>https://ustvgo.tv/boomerang/</page>
 </regex>
 </item>
  
