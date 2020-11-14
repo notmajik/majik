@@ -57,15 +57,27 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title>[COLOR lightblue]https://ustvgo.tv/boomerang/[/COLOR]</title>
-<link>https://f1.ustvgo.org/Boomerang/myStream/playlist.m3u8?wmsAuthSign=$doregex[tok]</link>
+<link>https://f1.ustvgo.org/Boomerang/myStream/playlist.m3u8?wmsAuthSign=$doregex[boomerang]</link>
 <regex>
-<name>tok</name>
+<name>boomerang</name>
 <expres>wmsAuthSign=(.*)</expres>
 <page>https://ustvgo.tv/boomerang/</page>
 <referer>https://ustvgo.tv/boomerang/</referer>
 </regex>
-<thumbnail>http://www.lamac.org/res/channels/logos/_0032_fox_sports.png</thumbnail>
+<thumbnail></thumbnail>
 </item>
+
+
+
+ 
+<item>
+<title>https://gist.githubusercontent.com/Gelson157/7254c894993fd90e740b453dcb3a064d/raw/9318755390acb958429b2c8928f545b2f1f4a6c3/TV%2520F4M</title>
+<link>ignor</link>
+<externallink>https://gist.githubusercontent.com/Gelson157/7254c894993fd90e740b453dcb3a064d/raw/9318755390acb958429b2c8928f545b2f1f4a6c3/TV%2520F4M</externallink>
+<thumbnail></thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
+</item>
+
 
 
 
@@ -129,8 +141,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
 </item>
  
- 
- 
+
 
   
 <item>
