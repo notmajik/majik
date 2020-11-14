@@ -55,7 +55,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
+<item>
 <title>[COLOR lightblue]https://ustvgo.tv/boomerang/[/COLOR]</title>
 <link>https://f1.ustvgo.org/Boomerang/myStream/playlist.m3u8?wmsAuthSign=$doregex[tok]</link>
 <regex>
