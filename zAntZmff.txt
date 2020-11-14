@@ -73,8 +73,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  
 <item>
-<title>[B][COLOR lime]comedy central[/COLOR][/B]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;Buffer=20971520&amp;url=http://beastiptv.tv:25461/live/Reyr07/Glendat11/1405.ts</link>
+<title>[B][COLOR lime]adult swim[/COLOR][/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;Buffer=20971520&amp;url=http://beastiptv.tv:25461/live/Reyr07/Glendat11/1257.ts</link>
 <thumbnail></thumbnail>
 <fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
 </item>
