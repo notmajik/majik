@@ -56,6 +56,30 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
+ 
+<item>
+<title>https://www.brettygood.com/</title>
+<link>$doregex[getM3U8]</link>
+<regex>
+<name>getM3U8</name>
+<expres>"url":"(.*?)"</expres>
+<page>https://www.brettygood.com/</page>
+<referer>https://www.brettygood.com/</referer>
+<agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+</item>
+
+
+ <item>
+<plugin>
+    <title>https://www.brettygood.com/</title>
+    <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://www.brettygood.com/%26referer= https://www.brettygood.com/</link>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+</plugin>
+</item>
+
 
 
 <item>
@@ -155,10 +179,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
  
  
- 
- 
 
  
+
+
  
 <item>
 <title>rick-and-morty</title>
