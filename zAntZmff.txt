@@ -68,7 +68,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-
+<item>
+<title>https://www.stream4free.live/family-guy</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[getM3U8]|User-Agent=iPad&amp;streamtype=HLSRETRY</link>
+<regex>
+<name>getM3U8</name>
+<expres>value="(http.*?)"</expres>
+<page>https://www.stream4free.live/family-guy</page>
+</regex>
+</item>
+ 
 
 
  
@@ -3330,7 +3339,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
  
  
 <item>
-<title>CN123</title>
+<title>CN</title>
 <link>plugin://plugin.video.f4mTester/?url=$doregex[getM3U8]|User-Agent=iPad&amp;streamtype=HLSRETRY</link>
 <regex>
 <name>getM3U8</name>
