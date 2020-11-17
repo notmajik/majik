@@ -61,8 +61,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <plugin>
     <title>toonami aftermath est</title>
     <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://api.toonamiaftermath.com/streamUrl?channelName=est&timezoneOffset=4&useHttps=true%26referer=https://api.toonamiaftermath.com/streamUrl?channelName=est&timezoneOffset=4&useHttps=true</link>
-    <thumbnail></thumbnail>
-    <fanart></fanart>
+    <thumbnail>https://i.imgur.com/0zKEbnv.png</thumbnail>
+    <fanart>https://i.imgur.com/0zKEbnv.png</fanart>
 </plugin>
 </item>
  
@@ -74,8 +74,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <plugin>
     <title>toonami aftermath movies</title>
     <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://api.toonamiaftermath.com/streamUrl?channelName=movies&timezoneOffset=4&useHttps=true%26referer=https://api.toonamiaftermath.com/streamUrl?channelName=movies&timezoneOffset=4&useHttps=true</link>
-    <thumbnail></thumbnail>
-    <fanart></fanart>
+    <thumbnail>https://i.imgur.com/0zKEbnv.png</thumbnail>
+    <fanart>https://i.imgur.com/0zKEbnv.png</fanart>
 </plugin>
 </item>
  
@@ -84,8 +84,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <plugin>
     <title>toonami aftermath radio</title>
     <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://api.toonamiaftermath.com/streamUrl?channelName=radio&timezoneOffset=4&useHttps=true%26referer=https://api.toonamiaftermath.com/streamUrl?channelName=radio&timezoneOffset=4&useHttps=true</link>
-    <thumbnail></thumbnail>
-    <fanart></fanart>
+    <thumbnail>https://i.imgur.com/0zKEbnv.png</thumbnail>
+    <fanart>https://i.imgur.com/0zKEbnv.png</fanart>
 </plugin>
 </item>
  
