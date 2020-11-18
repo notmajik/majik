@@ -1,0 +1,79 @@
+#EXTM3U
+#EXTINF:-1,▬ United Kingdom [UK] ▬
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/16512.m3u8
+#EXTINF:-1,Boomerang UK
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/1962.m3u8
+#EXTINF:-1,CNN UK
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/3995.m3u8
+#EXTINF:-1,Cartoon Network HD UK
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/3967.m3u8
+#EXTINF:-1,Comedy Central HD UK
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/16722.m3u8
+#EXTINF:-1,Comedy Central UK
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/3948.m3u8
+#EXTINF:-1,Comedy Central +1 UK
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/14847.m3u8
+#EXTINF:-1,Comedy Central Extra +1 UK
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/14845.m3u8
+#EXTINF:-1,Comedy Central Extra UK
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/14762.m3u8
+#EXTINF:-1,Disney Channel HD UK
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/1984.m3u8
+#EXTINF:-1,Disney Junior HD UK
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/3969.m3u8
+#EXTINF:-1,Disney XD HD UK
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/2675.m3u8
+#EXTINF:-1,MTV HD UK
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/20031.m3u8
+#EXTINF:-1,Nick HD UK
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/16719.m3u8
+#EXTINF:-1,Nick Jr. +1 UK
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/14829.m3u8
+#EXTINF:-1,Nick Jr. Peppa UK
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/14828.m3u8
+#EXTINF:-1,Nick Jr. UK
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/2669.m3u8
+#EXTINF:-1,Nickelodeon UK
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/14825.m3u8
+#EXTINF:-1,NickToons UK
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/14824.m3u8
+#EXTINF:-1,▬ USA & Canada [US-CA] ▬
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/16511.m3u8
+#EXTINF:-1,A&E HD US
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/10350.m3u8
+#EXTINF:-1,AMC HD US
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/13104.m3u8
+#EXTINF:-1,Cartoon Network US
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/13103.m3u8
+#EXTINF:-1,Comedy Central US
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/13102.m3u8
+#EXTINF:-1,FX HD US
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/13098.m3u8
+#EXTINF:-1,FXX HD US
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/13097.m3u8
+#EXTINF:-1,Nick FHD US
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/9012.m3u8
+#EXTINF:-1,TBS HD US
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/13106.m3u8
+#EXTINF:-1,USA Network HD US
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/13105.m3u8
+#EXTINF:-1,TNT US
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/15366.m3u8
+#EXTINF:-1,Disney Junior US
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/18065.m3u8
+#EXTINF:-1,MTV HD US
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/18076.m3u8
+#EXTINF:-1,Disney Channel HD US
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/22823.m3u8
+#EXTINF:-1,Fuse HD US
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/23262.m3u8
+#EXTINF:-1,MTV U HD US
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/27305.m3u8
+#EXTINF:-1,Nick Jr. US
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/27456.m3u8
+#EXTINF:-1,NickToons US
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/27457.m3u8
+#EXTINF:-1,TeenNick HD US
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/27459.m3u8
+#EXTINF:-1,Boomerang HD US
+http://tv.rapidswiss.hitv.one:80/live/deAeJyRc8l474/6n2UQzUuOj474/27466.m3u8
