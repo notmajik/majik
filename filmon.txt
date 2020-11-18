@@ -60,28 +60,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </plugin>
 </item>
  
- <item>
-<plugin>
-    <title>The Box</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://www.filmon.com/tv/the-box</link>
-    <thumbnail>https://static.filmon.com/assets/channels/5950/big_logo.png</thumbnail>
-    <fanart></fanart>
-</plugin>
-</item>
- 
 
- 
-<item>
-<plugin>
-    <title>box hits</title>
-<link>http://csm-e.tm.yospace.com/csm/extlive/boxplus01,boxhits-desktop.m3u8?yo.up=http%3a%2f%2fboxtv-origin-elb.cds1.yospace.com%2fuploads%2fboxhits%2f</link>
-    <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Box_hits.svg/1280px-Box_hits.svg.png</thumbnail>
-    <fanart></fanart>
-</plugin>
-</item>
- 
- 
- 
+
  
 <item>
 <title>The Box</title>
@@ -139,7 +119,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 <thumbnail></thumbnail>
-<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
+<fanart></fanart>
+</item>
  
  
  
@@ -201,14 +182,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 <thumbnail></thumbnail>
-<fanart>https://topigsnorsvin.com/wp-content/uploads/2014/10/uk-flag.jpg</fanart></item>
- 
+<fanart></fanart>
+</item>
  
  
  
 
- 
- 
  
 <item>
 <title>[B][COLOR lime]====MAJIK====[COLOR tomato]====NINJA==[COLOR tomato]UK==[COLOR lime]======IPTV========[/COLOR][/B]</title>
