@@ -63,7 +63,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <item>
 <plugin>
     <title>The Box</title>
-<link>plugin://plugin.video.SportsDevil/?item=definedIn%3dfilmon.com.cfg%26url.tmp%3d%252Fchannel%252Fthe-box%26title%3dThe%2bBox%26url%3dhttp%253A%252F%252Fwww.filmon.com%252Fchannel%252Fthe-box%26cfg%3dfilmon.com.cfg%2540Streams%26videoTitle%3dThe%2bBox%26director%3dfilmon.com%26genre%3dLive%2bTV%26type%3drss%26icon%3dhttps%253A%252F%252Fstatic.filmon.com%252Fassets%252Fchannels%252F5950%252Fbig_logo.png&amp;mode=1&quot</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://www.filmon.com/tv/the-box</link>
     <thumbnail>https://static.filmon.com/assets/channels/5950/big_logo.png</thumbnail>
     <fanart></fanart>
 </plugin>
