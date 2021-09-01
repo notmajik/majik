@@ -1,206 +1,22 @@
 #EXTM3U
-#EXTINF:-1,Boomerang HD UK
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/6651
-#EXTINF:-1,Boomerang HD UK
-http://mytv.fun:8080/5eqd7w0lao/7vdtn4hv1/6651
-#EXTINF:-1,Cartoon Network FHD VIP US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/4886
-#EXTINF:-1,Cartoon Network HD US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/14387
-#EXTINF:-1,Disney Channel HD US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/14369
-#EXTINF:-1,Disney Junior HD US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/675522
-#EXTINF:-1,Disney XD FHD US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/14368
-#EXTINF:-1,Comedy Central HD US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/4882
-#EXTINF:-1,Comedy Central US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/13823
-#EXTINF:-1,Cartoon Network FHD UK
-http://mytv.fun:8080/5eqd7w0lao/7vdtn4hv1/671326
-#EXTINF:-1,Cartoon Network HD VIP UK
-http://mytv.fun:8080/5eqd7w0lao/7vdtn4hv1/15781
-#EXTINF:-1,Cartoon Network FHD UK
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/671326
-#EXTINF:-1,Cartoon Network HD VIP UK
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/15781
-#EXTINF:-1,Cartoonito VIP UK
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/685173
-#EXTINF:-1,Cartoonito VIP UK
-http://mytv.fun:8080/5eqd7w0lao/7vdtn4hv1/685173
-#EXTINF:-1,Nickelodeon FHD VIP UK
-http://mytv.fun:8080/5eqd7w0lao/7vdtn4hv1/6572
-#EXTINF:-1,Nickelodeon FHD VIP UK
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/6572
-#EXTINF:-1,Nicktoons HD VIP US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/13744
-#EXTINF:-1,Nicktoons UK
-http://mytv.fun:8080/5eqd7w0lao/7vdtn4hv1/6570
-#EXTINF:-1,Nicktoons UK
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/6570
-#EXTINF:-1,Nick Jr HD UK
-http://mytv.fun:8080/5eqd7w0lao/7vdtn4hv1/15806
-#EXTINF:-1,Nick Jr HD UK
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/15806
-
-#EXTINF:-1,TLC FHD US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/13734
-#EXTINF:-1,TLC HD US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/14397
-#EXTINF:-1,TLC US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/4924
-#EXTINF:-1,TLC [East] HD VIP US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/684769
-#EXTINF:-1,TLC [West] HD VIP US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/684768
-#EXTINF:-1,TRU TV HD US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/677227
-#EXTINF:-1,Investigation Discovery HD US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/4879
-#EXTINF:-1,MTV Live FHD VIP US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/683372
-#EXTINF:-1,MTV HD US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/14342
-#EXTINF:-1,MTV2 HD VIP US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/683899
-#EXTINF:-1,MTV FHD VIP UK
-http://mytv.fun:8080/5eqd7w0lao/7vdtn4hv1/683775
-#EXTINF:-1,MTV Music VIP UK
-http://mytv.fun:8080/5eqd7w0lao/7vdtn4hv1/683776
-#EXTINF:-1,MTV Live FHD VIP UK
-http://mytv.fun:8080/5eqd7w0lao/7vdtn4hv1/671334
-#EXTINF:-1,MTV Live HD VIP UK
-http://mytv.fun:8080/5eqd7w0lao/7vdtn4hv1/9540
-#EXTINF:-1,MTV Hits VIP UK
-http://mytv.fun:8080/5eqd7w0lao/7vdtn4hv1/683777
-#EXTINF:-1,MTV Base HD VIP UK
-http://mytv.fun:8080/5eqd7w0lao/7vdtn4hv1/15818
-#EXTINF:-1,MTV Base VIP UK
-http://mytv.fun:8080/5eqd7w0lao/7vdtn4hv1/9537
-#EXTINF:-1,MTV Classic VIP UK
-http://mytv.fun:8080/5eqd7w0lao/7vdtn4hv1/683898
-#EXTINF:-1,MTV 80s UK
-http://mytv.fun:8080/5eqd7w0lao/7vdtn4hv1/9509
-#EXTINF:-1,MTV 80s Classic UK
-http://mytv.fun:8080/5eqd7w0lao/7vdtn4hv1/683778
-#EXTINF:-1,Now 80s VIP UK
-http://mytv.fun:8080/5eqd7w0lao/7vdtn4hv1/685774
-#EXTINF:-1,Now 70s VIP UK
-http://mytv.fun:8080/5eqd7w0lao/7vdtn4hv1/685773
-#EXTINF:-1,The Box UK
-http://mytv.fun:8080/5eqd7w0lao/7vdtn4hv1/15880
-#EXTINF:-1,Box Hits UK
-http://mytv.fun:8080/5eqd7w0lao/7vdtn4hv1/15785
-
-
-
-
-
-
-
-
-
-
-
-#EXTINF:-1,MTV FHD VIP UK
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/683775
-#EXTINF:-1,MTV Music VIP UK
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/683776
-#EXTINF:-1,MTV Live FHD VIP UK
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/671334
-#EXTINF:-1,MTV Live HD VIP UK
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/9540
-#EXTINF:-1,MTV Hits VIP UK
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/683777
-#EXTINF:-1,MTV Base HD VIP UK
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/15818
-#EXTINF:-1,MTV Base VIP UK
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/9537
-#EXTINF:-1,MTV Classic VIP UK
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/683898
-#EXTINF:-1,MTV 80s UK
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/9509
-#EXTINF:-1,MTV 80s Classic UK
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/683778
-#EXTINF:-1,Now 80s VIP UK
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/685774
-#EXTINF:-1,Now 70s VIP UK
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/685773
-#EXTINF:-1,The Box UK
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/15880
-#EXTINF:-1,Box Hits UK
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/15785
-
-
-
-#EXTINF:-1,NFL Network FHD VIP US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/685903
-#EXTINF:-1,NFL Network HD VIP US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/685902
-#EXTINF:-1,MLB Network FHD US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/4868
-#EXTINF:-1,MLB Network HD US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/14402
-#EXTINF:-1,NBA TV HD VIP US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/684729
-#EXTINF:-1,NBA TV HD US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/6355
-#EXTINF:-1,NHL Network HD US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/4875
-#EXTINF:-1,NBC Sports Network FHD US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/14403
-#EXTINF:-1,NBC Sports Network HD VIP US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/677133
-#EXTINF:-1,NBC Sports Network HD US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/4952
-#EXTINF:-1,NBC Sports Bay Area HD US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/677158
-#EXTINF:-1,NBC Sports Boston FHD US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/677159
-#EXTINF:-1,NBC Sports California FHD US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/677160
-#EXTINF:-1,NBC Sports Chicago HD VIP US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/677161
-#EXTINF:-1,NBC Sports Plus Chicago VIP US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/677162
-#EXTINF:-1,NBC Sports Washington HD US
-http://mytv.fun:8080/bpovf5df7y/n1e47d1fvd/677165
-
-
-
-
-
-
-#EXTINF:-1,|USA|  NFL NETWORK HD
-http://grtsa.sralm87.com:2082/Mohamed77_024038/3NeI9osL/13138
-#EXTINF:-1,|USA| NFL NOW HD
-http://grtsa.sralm87.com:2082/Mohamed77_024038/3NeI9osL/13139
-#EXTINF:-1,|USA| MLB Network
-http://grtsa.sralm87.com:2082/Mohamed77_024038/3NeI9osL/75384
-
-#EXTINF:-1,test
-http://grtsa.sralm87.com:2082/Mohamed77_024038/3NeI9osL/13094
-#EXTINF:-1,|USA| MTV HD
-http://grtsa.sralm87.com:2082/Mohamed77_024038/3NeI9osL/13094
-#EXTINF:-1,|USA| TRU TV
-http://grtsa.sralm87.com:2082/Mohamed77_024038/3NeI9osL/14627
-#EXTINF:-1,|USA| CBS 5 (WFRV) Green bay HD
-http://grtsa.sralm87.com:2082/Mohamed77_024038/3NeI9osL/76824
-
-http://ipflix.click:8080/gerhardhusswohnz1/oa38iso5ji/688742
-#EXTINF:-1,Disney Junior HD CH
-http://ipflix.click:8080/gerhardhusswohnz1/oa38iso5ji/688617
-#EXTINF:-1,Nickelodeon CH
-http://ipflix.click:8080/gerhardhusswohnz1/oa38iso5ji/688619
-
-
-
-#EXTINF:-1,Nicktoons HD VIP US
-http://mytv.fun:8080/5eqd7w0lao/7vdtn4hv1/13744
-
-#EXTINF:-1,steelers game
-http://d3522fz5z52lsr.cldfnt.net/live/live.m3u8
-
-
+#EXTINF:-1,|UK|FHD| CARTOON NETWORK
+http://xc.cobra-iptv.com:80/xEIhMZbtGDm3IcZ/b3WW8h9nH1/100912
+#EXTINF:-1,|UK|FHD| DISNEY CHANNEL
+http://xc.cobra-iptv.com:80/xEIhMZbtGDm3IcZ/b3WW8h9nH1/100913
+#EXTINF:-1,|UK|FHD| DISNEY JUNIOR
+http://xc.cobra-iptv.com:80/xEIhMZbtGDm3IcZ/b3WW8h9nH1/100914
+#EXTINF:-1,|UK|FHD| NICK
+http://xc.cobra-iptv.com:80/xEIhMZbtGDm3IcZ/b3WW8h9nH1/100917
+#EXTINF:-1,|UK|SD| CARTOON NETWORK
+http://xc.cobra-iptv.com:80/xEIhMZbtGDm3IcZ/b3WW8h9nH1/100924
+#EXTINF:-1,|UK|SD| DISNEY CHANNEL
+http://xc.cobra-iptv.com:80/xEIhMZbtGDm3IcZ/b3WW8h9nH1/100927
+#EXTINF:-1,|UK|SD| NICK JR PEPPA
+http://xc.cobra-iptv.com:80/xEIhMZbtGDm3IcZ/b3WW8h9nH1/100930
+#EXTINF:-1,|UK|SD| NICK JUNIOR
+http://xc.cobra-iptv.com:80/xEIhMZbtGDm3IcZ/b3WW8h9nH1/100931
+#EXTINF:-1,|UK|SD| NICKELODEON
+http://xc.cobra-iptv.com:80/xEIhMZbtGDm3IcZ/b3WW8h9nH1/100932
+#EXTINF:-1,|UK|SD| NICKTOONS
+http://xc.cobra-iptv.com:80/xEIhMZbtGDm3IcZ/b3WW8h9nH1/100933
 
