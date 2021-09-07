@@ -1,10 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="coronavirus.us" tvg-name="coronavirus.us" tvg-type="live" group-title="US" tvg-logo="https://media.tv4.live/coronavirus.us.png",*Coronavirus Pandemic*
-https://tv4.live/api/stream/mareaa19@jdecorz.com/559294/livetv.epg/coronavirus.us.m3u8
-#EXTINF:-1 tvg-id="5.star.max.eastern.us" tvg-name="5.star.max.eastern.us" tvg-type="live" group-title="US" tvg-logo="https://media.tv4.live/5.star.max.eastern.us.png",5 Star Max (East)
-https://tv4.live/api/stream/mareaa19@jdecorz.com/559294/livetv.epg/5.star.max.eastern.us.m3u8
-#EXTINF:-1 tvg-id="5.star.max.pacific.us" tvg-name="5.star.max.pacific.us" tvg-type="live" group-title="US" tvg-logo="https://media.tv4.live/5.star.max.pacific.us.png",5 Star Max (West)
-https://tv4.live/api/stream/mareaa19@jdecorz.com/559294/livetv.epg/5.star.max.pacific.us.m3u8
 #EXTINF:-1 tvg-id="ae.us.eastern.us" tvg-name="ae.us.eastern.us" tvg-type="live" group-title="US" tvg-logo="https://media.tv4.live/ae.us.eastern.us.png",A&E (East) US
 https://tv4.live/api/stream/mareaa19@jdecorz.com/559294/livetv.epg/ae.us.eastern.us.m3u8
 #EXTINF:-1 tvg-id="abc.news.live.us" tvg-name="abc.news.live.us" tvg-type="live" group-title="US" tvg-logo="https://media.tv4.live/abc.news.live.us.png",ABC News Live
