@@ -91,7 +91,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://www.visioneclick.com/wp-content/uploads/2018/02/cable-tv-providers-list.jpg</fanart>    
 ]]></listrepeat>
 <expres><![CDATA[#EXTINF:(.*),(.*)\s(http.*://(.*)/live.*m3u8)]]></expres>
-<page><![CDATA[https://tv4.live/api/list/bobcatrolling@gmail.com/247778]]></page>
+<page><![CDATA[]]></page>
 <cookieJar></cookieJar>
 </regex>   
 </item>
@@ -112,7 +112,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://www.visioneclick.com/wp-content/uploads/2018/02/cable-tv-providers-list.jpg</fanart>    
 ]]></listrepeat>
 <expres><![CDATA[#EXTINF:(.*),(.*)\s(http.*://(.*)/live.*m3u8)]]></expres>
-<page><![CDATA[https://tv4.live/api/list/aarnav@delaysrnxf.com/379967]]></page>
+<page><![CDATA[]]></page>
 <cookieJar></cookieJar>
 </regex>   
 </item>
@@ -136,7 +136,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://www.visioneclick.com/wp-content/uploads/2018/02/cable-tv-providers-list.jpg</fanart>    
 ]]></listrepeat>
 <expres><![CDATA[#EXTINF:(.*),(.*)\s(http.*://(.*)/live.*m3u8)]]></expres>
-<page><![CDATA[https://tv4.live/api/list/rinettee65@delaysrnxf.com/230243]]></page>
+<page><![CDATA[]]></page>
 <cookieJar></cookieJar>
 </regex>   
 </item>
