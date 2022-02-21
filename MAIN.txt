@@ -49,6 +49,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
+
+<item>
+<title>[COLOR red]youtube live[/COLOR]</title>
+<link>ignor</link>
+<externallink>https://raw.githubusercontent.com/vthanhchannel2/youtube-m3u/main/playlist.m3u</externallink>
+<thumbnail>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/714930557164068864/CtSowBUJ.jpg</fanart>
+</item>
+
+
 <item>
 <title>[COLOR red]adult swim[/COLOR]</title>
 <link>ignor</link>
