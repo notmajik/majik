@@ -101,7 +101,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item> 
-<title>[COLOR pink][B]CABLE TV LIST 1[/B][/COLOR]</title>             
+<title>[COLOR pink][B]CABLE TV LIST 1   https://bit.ly/3qJI0wC [/B][/COLOR]</title>             
 <link>$doregex[makelist2]</link>
 <regex>
 <name>makelist2</name>
@@ -114,7 +114,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://www.visioneclick.com/wp-content/uploads/2018/02/cable-tv-providers-list.jpg</fanart>    
 ]]></listrepeat>
 <expres><![CDATA[#EXTINF:(.*),(.*)\s(http.*://(.*)/live.*m3u8)]]></expres>
-<page><![CDATA[]]></page>
+<page><![CDATA[https://bit.ly/3qJI0wC]]></page>
 <cookieJar></cookieJar>
 </regex>   
 </item>
